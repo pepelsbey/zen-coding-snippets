@@ -18,6 +18,27 @@ Example: `video+` will be expanded into
 </video>
 ```
 
+HTML5 template by `html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>$1</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	$0
+</body>
+</html>
+```
+
+jQuery include by `script:jq`
+
+```html
+<script src="//code.jquery.com/jquery-${1:latest}.min.js"></script>
+```
+
 ## CSS
 
 Example: `@f+` will be expanded into
@@ -32,4 +53,24 @@ Example: `@f+` will be expanded into
 		url($2.ttf) format('truetype'),
 		url($2.svg#$2) format('svg');
 	}
+```
+
+Cross-browser gradient by `bgi:lg`
+
+```css
+background-image:-webkit-linear-gradient(${1:top}, ${2:#000} ${3:0}, ${4:#FFF} ${5:100%});
+background-image:-moz-linear-gradient($1, $2 $3, $4 $5);
+background-image:-ms-linear-gradient($1, $2 $3, $4 $5);
+background-image:-o-linear-gradient($1, $2 $3, $4 $5);
+background-image:linear-gradient($1, $2 $3, $4 $5);
+```
+
+Cross-browser transition by `tr=`
+
+```css
+-webkit-transition:${1:all} ${2:linear} ${3:1s};
+-moz-transition:$1 $2 $3;
+-ms-transition:$1 $2 $3;
+-o-transition:$1 $2 $3;
+transition:$1 $2 $3;
 ```
