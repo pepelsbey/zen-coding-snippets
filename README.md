@@ -4,6 +4,8 @@ HTML and CSS snippets for [Zen Coding](https://github.com/sergeche/zen-coding) p
 
 Special repository for creating new snippets and polishing old ones. Syntax of the snippets is compatible with [TextMate snippets](http://manual.macromates.com/en/snippets).
 
+Bug reports and suggestions [are welcome](https://github.com/pepelsbey/zen-coding-snippets/issues).
+
 ## HTML
 
 Example: `video+` will be expanded into
@@ -31,5 +33,3 @@ Example: `@f+` will be expanded into
 		url($2.svg#$2) format('svg');
 	}
 ```
-
-Bug reports and suggestions [are welcome](https://github.com/pepelsbey/zen-coding-snippets/issues).
