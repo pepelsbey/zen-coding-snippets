@@ -1,0 +1,641 @@
+# Zen Coding snippets for HTML
+# Copyright © 2008–2011 Vadim Makeev, http://pepelsbey.net
+# Licensed under MIT license
+
+- Head
+- Sections
+- Grouping
+- Tables
+- Forms
+- Interactive
+- Edits
+- Embedded
+- Text
+
+## Head • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+doc
+<!DOCTYPE html>
+
+html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>$1</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	$0
+</body>
+</html>
+
+html:en
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>$1</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	$0
+</body>
+</html>
+
+html:ru
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<title>$1</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	$0
+</body>
+</html>
+
+head
+<head>
+	$1
+</head>
+
+title
+<title>$1</title>
+
+base
+<base href="$1">
+
+link
+<link$1>
+
+link:css
+<link rel="stylesheet" href="${1:screen.css}">
+
+link:ico
+<link rel="icon" sizes="${1:16x16}" href="${2:favicon.ico}">
+
+link:touch
+<link rel="apple-touch-icon" href="favicon.png">
+
+link:touch-pre
+<link rel="apple-touch-icon-precomposed" href="favicon.png">
+
+link:rss
+<link rel="alternate" type="application/rss+xml" title="${1:RSS}" href="${2:rss}">
+
+link:atom
+<link rel="alternate" type="application/atom+xml" title="${1:Atom}" href="${2:atom}">
+
+meta
+<meta$1>
+
+meta:utf
+<meta charset="utf-8">
+
+meta:win
+<meta charset="win-1251">
+
+meta:desc
+<meta name="description" content="$1">
+
+meta:key
+<meta name="keywords" content="$1">
+
+meta:comp
+<meta http-equiv="x-ua-compatible" content="${1:ie=edge}">
+
+meta:chrome
+<meta http-equiv="x-ua-compatible" content="${1:chrome=1}">
+
+meta:view
+<meta name="viewport" content="${1:width=device-width}">
+
+style
+<style>
+	$1
+</style>
+
+script
+<script>
+	$1
+</script>
+
+script:src
+<script src="script.js"></script>
+
+script:jq
+<script src="//code.jquery.com/jquery-${1:latest}.min.js"></script>
+
+script:jqg
+<script src="//ajax.googleapis.com/ajax/libs/jquery/${1:1.6.2}/jquery.min.js"></script>
+
+script:jqy
+<script src="//yandex.st/jquery/${1:1.6.2}/jquery.min.js"></script>
+
+noscript
+<noscript>
+	$1
+</noscript>
+
+## Sections • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+body
+<body>
+	$1
+</body>
+
+article
+<article>
+	$1
+</article>
+
+nav
+<nav>
+	$1
+</nav>
+
+aside
+<aside>
+	$1
+</aside>
+
+section
+<section>
+	$1
+</section>
+
+header
+<header>
+	$1
+</header>
+
+footer
+<footer>
+	$1
+</footer>
+
+h
+<h{1:1}>$2</h${1}>
+
+hgroup
+<hgroup>
+	$1
+</hgroup>
+
+address
+<address>
+	$1
+</address>
+
+## Grouping • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+p
+<p>$1</p>
+
+hr
+<hr>
+
+pre
+<pre>
+	$1
+</pre>
+
+bq
+blockquote
+<blockquote>
+	$1
+</blockquote>
+
+ol
+<ol>
+	$1
+</ol>
+
+ol+
+<ol>
+	<li>$1</li>
+</ol>
+
+ul
+<ul>
+	$1
+</ul>
+
+ul+
+<ul>
+	<li>$1</li>
+</ul>
+
+li
+<li>$1</li>
+
+dl
+<dl>
+	$1
+</dl>
+
+dt
+<dt>$1</dt>
+
+dd
+<dd>
+	$1
+</dd>
+
+figure
+<figure>
+	$1
+</figure>
+
+figure+
+<figure>
+	<figcaption>$1</figcaption>
+	$2
+</figure>
+
+fc
+figcaption
+<figcaption>$1</figcaption>
+
+div
+<div>$1</div>
+
+## Tables • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+table
+<table>
+	$1
+</table>
+
+table+
+<table>
+<tr>
+	<td>$1</td>
+</tr>
+</table>
+
+caption
+<caption>$1</caption>
+
+thead
+<thead>
+	$1
+</thead>
+
+tbody
+<tbody>
+	$1
+</tbody>
+
+tfoot
+<tfoot>
+	$1
+</tfoot>
+
+tr
+<tr>
+	$1
+</tr>
+
+th
+<th>
+	$1
+</th>
+
+td
+<td>
+	$1
+</td>
+
+col
+<col>
+
+cg
+colgroup
+<colgroup>
+	$1
+</colgroup>
+
+cg+
+colgroup+
+<colgroup>
+	<col>$1
+</colgroup>
+
+## Forms  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+form
+<form action="$1">
+	$2
+</form>
+
+fs
+fieldset
+<fieldset>
+	$1
+</fieldset>
+
+legend
+<legend>$1</legend>
+
+label
+<label for="$1">$2</label>
+
+input
+<input type="$1" name="$2">
+
+input:hidden
+<input type="hidden" name="$1" value="$2">
+
+input:text
+<input type="text" name="$1" value="$2">
+
+input:search
+<input type="search" name="$1" value="$2">
+
+input:url
+<input type="url" name="$1" value="$2">
+
+input:email
+<input type="email" name="$1" value="$2">
+
+input:password
+<input type="password" name="$1" value="$2">
+
+input:date
+<input type="date" name="$1" value="$2">
+
+input:datetime
+<input type="datetime" name="$1" value="$2">
+
+input:datetime-local
+<input type="datetime-local" name="$1" value="$2">
+
+input:month
+<input type="month" name="$1" value="$2">
+
+input:week
+<input type="week" name="$1" value="$2">
+
+input:time
+<input type="time" name="$1" value="$2">
+
+input:number
+<input type="number" name="$1" value="$2">
+
+input:range
+<input type="range" name="$1" value="$2">
+
+input:color
+<input type="color" name="$1" value="$2">
+
+input:checkbox
+<input type="checkbox" name="$1" value="$2"${3: checked}>
+
+input:radio
+<input type="radio" name="$1" value="$2"${3: checked}>
+
+input:file
+<input type="file" name="$1" value="$2"${3: multiple}>
+
+input:submit
+<input type="submit" value="$1">
+
+input:image
+<input type="image" src="$1" alt="$2">
+
+input:reset
+<input type="reset" value="$1">
+
+input:button
+<input type="button" value="$1">
+
+button
+<button>$1</button>
+
+select
+<select>
+	$1
+</select>
+
+select+
+<select>
+	<option name="$1">$2</option>
+</select>
+
+datalist
+<datalist>
+	$1
+</datalist>
+
+datalist+
+<datalist>
+	<option label="$1" value="$2">
+</datalist>
+
+optgroup
+<optgroup>
+	$1
+</optgroup>
+
+option
+<option name="$1">$1</option>
+
+ta
+textarea
+<textarea name="$1" cols="${2:20}" rows="${3:10}">$4</textarea>
+
+keygen
+<keygen name="$1">
+
+output
+<output name="$1" for="$2">$3</output>
+
+progress
+<progress name="$1" value="$2">
+
+meter
+<meter name="$1" value="$2">
+
+## Interactive  • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+details
+<details>
+	$1
+</details>
+
+details+
+<details>
+	<summary>$1</summary>
+	$2
+</details>
+
+summary
+<summary>$1</summary>
+
+command
+<command type="$1" label="$2">$1</command>
+
+menu
+<menu type="$1">
+	$2
+</menu>
+
+## Edits  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+del
+<del${1: datetime="$2"}>$3</del>
+
+ins
+<ins${1: datetime="$2"}>$3</ins>
+
+## Embedded • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+img
+<img src="$1" alt="$2">
+
+iframe
+<iframe src="$1" height="$2" width="$3"></iframe>
+
+embed
+<embed src="$1">
+
+object
+<object data="$1" type="$2">
+	$3
+</object>
+
+param
+<param name="$1" value="$2">
+
+video
+<video${1: src="$2"}${3: controls}>$4</video>
+
+video+
+<video width="${1:640}" height="${2:480}"${3: controls}>
+	<source src="${4:video}.mp4" type="video/mp4">
+	<source src="$4.webm" type="video/webm">
+	<source src="$4.ogv" type="video/ogg">
+</video>
+
+audio
+<audio${1: src="$2"}${3: controls}>$4</audio>
+
+audio+
+<audio${1: controls}>
+	<source src="${2:video}.mp3" type="audio/mpeg">
+	<source src="$2.ogg" type="audio/ogg">
+</audio>
+
+source
+<source src="$1" type="$2">
+
+canvas
+<canvas id="${1:canvas}" width="${2:640}" height="${3:480}">$4</canvas>
+
+track
+<track src="$1" label="$4">
+
+map
+<map name="$1">
+	$2
+</map>
+
+map+
+<map name="$1">
+	<area href="$2" shape="${3:rect}" coords="$4" alt="$5">
+</map>
+
+area
+<area href="$1" shape="$2" coords="$3" alt="$4">
+
+## Text • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+a
+<a href="$1">$2</a>
+
+a:link
+<a href="http://$1">$2</a>
+
+a:mail
+<a href="mailto:$1">$2</a>
+
+em
+<em>$1</em>
+
+strong
+<strong>$1</strong>
+
+i
+<i>$1</i>
+
+b
+<b>$1</b>
+
+u
+<u>$1</u>
+
+s
+<s>$1</s>
+
+small
+<small>$1</small>
+
+abbr
+<abbr>$1</abbr>
+
+q
+<q>$1</q>
+
+cite
+<cite>$1</cite>
+
+dfn
+<dfn>$1</dfn>
+
+sub
+<sub>$1</sub>
+
+sup
+<sup>$1</sup>
+
+time
+<time>$1</time>
+
+code
+<code>$1</code>
+
+kbd
+<kbd>$1</kbd>
+
+samp
+<samp>$1</samp>
+
+var
+<var>$1</var>
+
+mark
+<mark>$1</mark>
+
+bdi
+<bdi>$1</bdi>
+
+bdo
+<bdo>$1</bdo>
+
+ruby
+<ruby>$1</ruby>
+
+rt
+<rt>$1</rt>
+
+rp
+<rp>$1</rp>
+
+span
+<span>$1</span>
+
+br
+<br>
+
+wbr
+<wbr>$1</wbr>
