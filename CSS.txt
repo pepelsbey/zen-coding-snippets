@@ -890,7 +890,7 @@ border-image-width:auto;
 ### Border-Image-Outset
 
 bdio
-border-image-outset:$1;
+border-image-outset:${1:0};
 
 bdio:2
 border-image-outset:${1:0} ${2:0};
@@ -927,7 +927,7 @@ bg:n
 background:none;
 
 bg+
-background:${1:#FFF} ${2:url($3)} ${4:0} ${5:0} ${6:no-repeat};
+background:${1:#FFF} url($2) ${3:0} ${4:0} ${5:no-repeat};
 
 bg:ief
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$1', sizingMethod='${2:crop}');
