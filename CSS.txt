@@ -945,6 +945,9 @@ background-color:transparent;
 bgi
 background-image:url($1);
 
+bgi:n
+background-image:none;
+
 ### Bg-Image-Gradients
 
 bgi:lg
@@ -974,9 +977,6 @@ background-image:-moz-repeating-radial-gradient($1, $2 $3, $4 $5);
 background-image:-ms-repeating-radial-gradient($1, $2 $3, $4 $5);
 background-image:-o-repeating-radial-gradient($1, $2 $3, $4 $5);
 background-image:repeating-radial-gradient($1, $2 $3, $4 $5);
-
-bgi:n
-background-image:none;
 
 ### Bg-Repeat
 
@@ -1096,13 +1096,13 @@ box-shadow:none;
 bsh+
 box-shadow:${1:0} ${2:0} ${3:0} ${4:#000};
 
-bsh:i+
-box-shadow:${1:0} ${2:0} ${3:0} ${4:#000} ${5:inset};
-
 bsh=
 -webkit-box-shadow:${1:0} ${2:0} ${3:0} ${4:#000};
 -moz-box-shadow:$1 $2 $3 $4;
 box-shadow:$1 $2 $3 $4;
+
+bsh:i+
+box-shadow:${1:0} ${2:0} ${3:0} ${4:#000} ${5:inset};
 
 bsh:i=
 -webkit-box-shadow:${1:0} ${2:0} ${3:0} ${4:#000} ${5:inset};
