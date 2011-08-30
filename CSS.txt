@@ -1706,11 +1706,10 @@ wob:ms
 ts
 tab-size:$1;
 
-ts:m
+ts=
 -moz-tab-size:$1;
-
-ts:o
 -o-tab-size:$1;
+tab-size:$1;
 
 ### Letter
 
