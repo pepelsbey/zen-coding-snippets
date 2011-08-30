@@ -892,9 +892,6 @@ border-image-width:auto;
 bdio
 border-image-outset:$1;
 
-bdio:0
-border-image-outset:${1:0};
-
 bdio:2
 border-image-outset:${1:0} ${2:0};
 
