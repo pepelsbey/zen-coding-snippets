@@ -638,7 +638,7 @@ oc:i
 outline-color:invert;
 
 oo
-outline-offset:$1;
+outline-offset:${1:0};
 
 ### Border
 
