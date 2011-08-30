@@ -1378,7 +1378,7 @@ content:no-close-quote;
 ct:a
 content:attr($1);
 
-ct:c
+ct:co
 content:counter($1);
 
 ct:cs
@@ -1453,6 +1453,9 @@ text-align:end;
 tal
 text-align-last:$1;
 
+tal:ms
+-ms-text-align-last:$1;
+
 tal:a
 text-align-last:auto;
 
@@ -1467,9 +1470,6 @@ text-align-last:right;
 
 tal:j
 text-align-last:justify;
-
-tal:ms
--ms-text-align-last:$1;
 
 ### Text-Decoration
 
@@ -1521,6 +1521,9 @@ text-indent:-9999px;
 tj
 text-justify:$1;
 
+tj:ms
+-ms-text-justify:$1;
+
 tj:a
 text-justify:auto;
 
@@ -1550,9 +1553,6 @@ text-justify:newspaper;
 
 tj:t
 text-justify:tibetan;
-
-tj:ms
--ms-text-justify:$1;
 
 ### Text-Outline
 
@@ -1599,7 +1599,7 @@ text-wrap:none;
 tw:u
 text-wrap:unrestricted;
 
-tw:av
+tw:a
 text-wrap:avoid;
 
 ### Text-Overflow
@@ -1675,14 +1675,14 @@ word-spacing:normal;
 wow
 word-wrap:$1;
 
+wow:ms
+-ms-word-wrap:$1;
+
 wow:n
 word-wrap:normal;
 
 wow:bw
 word-wrap:break-word;
-
-wow:ms
--ms-word-wrap:$1;
 
 wob
 word-break:$1;
@@ -1702,10 +1702,10 @@ tab-size:$1;
 
 ### Letter
 
-lts
+les
 letter-spacing:$1;
 
-lts:n
+les:n
 letter-spacing:normal;
 
 ### Font
@@ -1714,7 +1714,7 @@ f
 font:$1;
 
 f+
-font:1em Arial, sans-serif;
+font:${1:1em} ${2:Arial}, ${3:sans-serif};
 
 ### Font-weight
 
@@ -1793,10 +1793,10 @@ font-size-adjust:$1;
 fza:n
 font-size-adjust:none;
 
+### Font-Stretch
+
 fst
 font-stretch:$1;
-
-### Font-Stretch
 
 fst:n
 font-stretch:normal;
@@ -1893,103 +1893,103 @@ resize:vertical;
 
 ### Cursor
 
-cu
+cur
 cursor:$1;
 
-cu:a
+cur:a
 cursor:auto;
 
-cu:d
+cur:d
 cursor:default;
 
-cu:n
+cur:n
 cursor:none;
 
-cu:cm
+cur:cm
 cursor:context-menu;
 
-cu:h
+cur:h
 cursor:help;
 
-cu:p
+cur:p
 cursor:pointer;
 
-cu:pr
+cur:pr
 cursor:progress;
 
-cu:w
+cur:w
 cursor:wait;
 
-cu:c
+cur:c
 cursor:cell;
 
-cu:cr
+cur:cr
 cursor:crosshair;
 
-cu:t
+cur:t
 cursor:text;
 
-cu:vt
+cur:vt
 cursor:vertical-text;
 
-cu:al
+cur:al
 cursor:alias;
 
-cu:cp
+cur:cp
 cursor:copy;
 
-cu:mv
+cur:mv
 cursor:move;
 
-cu:nd
+cur:nd
 cursor:no-drop;
 
-cu:na
+cur:na
 cursor:not-allowed;
 
-cu:er
+cur:er
 cursor:e-resize;
 
-cu:nr
+cur:nr
 cursor:n-resize;
 
-cu:ner
+cur:ner
 cursor:ne-resize;
 
-cu:nwr
+cur:nwr
 cursor:nw-resize;
 
-cu:sr
+cur:sr
 cursor:s-resize;
 
-cu:ser
+cur:ser
 cursor:se-resize;
 
-cu:swr
+cur:swr
 cursor:sw-resize;
 
-cu:wr
+cur:wr
 cursor:w-resize;
 
-cu:ewr
+cur:ewr
 cursor:ew-resize;
 
-cu:nsr
+cur:nsr
 cursor:ns-resize;
 
-cu:neswr
+cur:neswr
 cursor:nesw-resize;
 
-cu:nwser
+cur:nwser
 cursor:nwse-resize;
 
-cu:cor
+cur:cor
 cursor:col-resize;
 
-cu:ror
+cur:ror
 cursor:row-resize;
 
-cu:als
+cur:als
 cursor:all-scroll;
 
 ### Nav
