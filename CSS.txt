@@ -856,9 +856,6 @@ border-image-source:none;
 ### Border-Image-Slice
 
 bdisl
-border-image-slice:$1;
-
-bdisl:0
 border-image-slice:${1:0};
 
 bdisl:2
