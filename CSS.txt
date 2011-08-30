@@ -84,11 +84,6 @@
 	$2
 	}
 
-@k:o
-@-o-keyframes ${1:name} {
-	$2
-	}
-
 ### Page
 
 @p
@@ -406,9 +401,6 @@ overflow-x:scroll;
 ovx:a
 overflow-x:auto;
 
-ovx:ms
--ms-overflow-x:$1;
-
 ovy
 overflow-y:$1;
 
@@ -423,6 +415,9 @@ overflow-y:scroll;
 
 ovy:a
 overflow-y:auto;
+
+ovx:ms
+-ms-overflow-x:$1;
 
 ovy:ms
 -ms-overflow-y:$1;
