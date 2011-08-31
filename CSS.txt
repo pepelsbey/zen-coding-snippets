@@ -1700,6 +1700,40 @@ ts=
 -o-tab-size:$1;
 tab-size:$1;
 
+### Hyphens
+
+hy
+hyphens:$1;
+
+hy=
+-webkit-hyphens:$1;
+-moz-hyphens:$1;
+hyphens:$1;
+
+hy:n
+hyphens:none;
+
+hy:n=
+-webkit-hyphens:none;
+-moz-hyphens:none;
+hyphens:none;
+
+hy:m
+hyphens:manual;
+
+hy:m=
+-webkit-hyphens:manual;
+-moz-hyphens:manual;
+hyphens:manual;
+
+hy:a
+hyphens:auto;
+
+hy:a=
+-webkit-hyphens:auto;
+-moz-hyphens:auto;
+hyphens:auto;
+
 ### Letter
 
 les
