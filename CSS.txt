@@ -587,11 +587,11 @@ height:device-height;
 o
 outline:$1;
 
-o:n
-outline:none;
-
 o+
 outline:${1:1px} ${2:dotted} ${3:#000};
+
+o:n
+outline:none;
 
 ow
 outline-width:${1:1px};
@@ -614,11 +614,11 @@ outline-offset:${1:0};
 bd
 border:$1;
 
-bd:n
-border:none;
-
 bd+
 border:${1:1px} ${2:solid} ${3:#000};
+
+bd:n
+border:none;
 
 bdcl
 border-collapse:$1;
@@ -680,11 +680,11 @@ border-color:${1:#000};
 bdt
 border-top:$1;
 
-bdt:n
-border-top:none;
-
 bdt+
 border-top:${1:1px} ${2:solid} ${3:#000};
+
+bdt:n
+border-top:none;
 
 bdtw
 border-top-width:${1:1px};
@@ -701,11 +701,11 @@ border-top-color:${1:#000};
 bdr
 border-right:$1;
 
-bdr:n
-border-right:none;
-
 bdr+
 border-right:${1:1px} ${2:solid} ${3:#000};
+
+bdr:n
+border-right:none;
 
 bdrw
 border-right-width:${1:1px};
@@ -722,11 +722,11 @@ border-right-color:${1:#000};
 bdb
 border-bottom:$1;
 
-bdb:n
-border-bottom:none;
-
 bdb+
 border-bottom:${1:1px} ${2:solid} ${3:#000};
+
+bdb:n
+border-bottom:none;
 
 bdbw
 border-bottom-width:${1:1px};
@@ -743,11 +743,11 @@ border-bottom-color:${1:#000};
 bdl
 border-left:$1;
 
-bdl:n
-border-left:none;
-
 bdl+
 border-left:${1:1px} ${2:solid} ${3:#000};
+
+bdl:n
+border-left:none;
 
 bdlw
 border-left-width:${1:1px};
@@ -781,7 +781,7 @@ bdrz:4
 -moz-border-radius:$1 $2 $3 $4;
 border-radius:$1 $2 $3 $4;
 
-> TODO: check single -moz-properties syntax
+> TODO: add old -moz-bdrz syntax
 
 bdtrrz
 -webkit-border-top-right-radius:${1:0};
@@ -950,11 +950,11 @@ border-image-repeat:space;
 bg
 background:$1;
 
-bg:n
-background:none;
-
 bg+
 background:${1:#FFF} url($2) ${3:0} ${4:0} ${5:no-repeat};
+
+bg:n
+background:none;
 
 bg:ief
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$1', sizingMethod='${2:crop}');
@@ -1097,11 +1097,6 @@ bsh
 -moz-box-shadow:$1;
 box-shadow:$1;
 
-bsh:n
--webkit-box-shadow:none;
--moz-box-shadow:none;
-box-shadow:none;
-
 bsh+
 -webkit-box-shadow:${1:0} ${2:0} ${3:0} ${4:#000};
 -moz-box-shadow:$1 $2 $3 $4;
@@ -1111,6 +1106,11 @@ bsh:i+
 -webkit-box-shadow:${1:0} ${2:0} ${3:0} ${4:#000} ${5:inset};
 -moz-box-shadow:$1 $2 $3 $4 $5;
 box-shadow:$1 $2 $3 $4 $5;
+
+bsh:n
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
 
 lg
 linear-gradient($1)
@@ -1530,11 +1530,11 @@ text-justify:tibetan;
 to
 text-outline:$1;
 
-to:n
-text-outline:none;
-
 to+
 text-outline:${1:0} ${2:0} ${3:#000};
+
+to:n
+text-outline:none;
 
 tt
 text-transform:$1;
@@ -1593,11 +1593,11 @@ text-overflow-mode:ellipsis-word;
 tsh
 text-shadow:$1;
 
-tsh:n
-text-shadow:none;
-
 tsh+
 text-shadow:${1:0} ${2:0} ${3:0} ${4:#000};
+
+tsh:n
+text-shadow:none;
 
 lh
 line-height:${1:1};
@@ -1975,6 +1975,8 @@ tr
 -o-transition:$1;
 transition:$1;
 
+> TODO: add none value
+
 tr+
 -webkit-transition:${1:all} ${2:linear} ${3:1s};
 -moz-transition:$1 $2 $3;
@@ -2072,6 +2074,8 @@ tf
 -ms-transform:$1;
 -o-transform:$1;
 transform:$1;
+
+> TODO: add none value
 
 tf:mx
 -webkit-transform:matrix(${1:0}, ${2:0}, ${3:0}, ${4:0}, ${5:0}, ${6:0});
@@ -2220,7 +2224,8 @@ an
 -o-animation:$1;
 animation:$1;
 
-> TODO: check expanded syntax for an+
+> TODO: add expanded syntax for an+
+> TODO: add none value
 
 ann
 -webkit-animation-name:$1;
@@ -2405,6 +2410,8 @@ cor
 -webkit-column-rule:$1;
 -moz-column-rule:$1;
 column-rule:$1;
+
+> TODO: add none value
 
 cor+
 -webkit-column-rule:${1:1px} ${2:solid} ${3:#000};
