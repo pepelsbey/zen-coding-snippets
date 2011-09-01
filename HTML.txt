@@ -229,6 +229,10 @@ adr
 p
 <p>$1</p>
 
+</p>
+</p>
+<p>$1</p>
+
 hr
 <hr>
 
@@ -269,6 +273,10 @@ ul+
 </ul>
 
 li
+<li>$1</li>
+
+</li>
+</li>
 <li>$1</li>
 
 dl
@@ -347,17 +355,31 @@ tr
 	$1
 </tr>
 
-th
-<th>
+</tr>
+</tr>
+<tr>
 	$1
+</tr>
+
+th
+<th>$1</th>
+
 </th>
+</th>
+<th>$1</th>
 
 td
-<td>
-	$1
+<td>$1</td>
+
 </td>
+</td>
+<td>$1</td>
 
 col
+<col>
+
+<col>
+<col>
 <col>
 
 colgroup
