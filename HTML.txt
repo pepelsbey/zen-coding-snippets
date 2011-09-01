@@ -120,7 +120,7 @@ script
 </script>
 
 script:src
-<script src="script.js"></script>
+<script src="${1:script.js}"></script>
 
 script:jq
 <script src="//code.jquery.com/jquery-${1:latest}.min.js"></script>
@@ -135,6 +135,38 @@ noscript
 <noscript>
 	$1
 </noscript>
+
+### Conditional Comments
+
+cc:ie
+<!--[if IE]>
+	$1
+<![endif]-->
+
+cc:lt
+<!--[if lt IE ${1:6}]>
+	$2
+<![endif]-->
+
+cc:lte
+<!--[if lte IE ${1:6}]>
+	$2
+<![endif]-->
+
+cc:gt
+<!--[if gt IE ${1:6}]>
+	$2
+<![endif]-->
+
+cc:gte
+<!--[if gte IE ${1:6}]>
+	$2
+<![endif]-->
+
+cc:noie
+<!--[if !IE]><!-->
+	$1
+<!--<![endif]-->
 
 ## Sections • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -199,7 +231,11 @@ pre
 	$1
 </pre>
 
-bq
+pre+
+<pre>
+	<code>$1</code>
+</pre>
+
 blockquote
 <blockquote>
 	$1
@@ -233,6 +269,14 @@ dl
 	$1
 </dl>
 
+dl+
+<dl>
+	<dt>$1</dt>
+	<dd>
+		$2
+	</dd>
+</dl>
+
 dt
 <dt>$1</dt>
 
@@ -252,7 +296,6 @@ figure+
 	$2
 </figure>
 
-fc
 figcaption
 <figcaption>$1</figcaption>
 
@@ -309,13 +352,11 @@ td
 col
 <col>
 
-cg
 colgroup
 <colgroup>
 	$1
 </colgroup>
 
-cg+
 colgroup+
 <colgroup>
 	<col>$1
@@ -328,7 +369,6 @@ form
 	$2
 </form>
 
-fs
 fieldset
 <fieldset>
 	$1
@@ -440,7 +480,6 @@ optgroup
 option
 <option name="$1">$1</option>
 
-ta
 textarea
 <textarea name="$1" cols="${2:20}" rows="${3:10}">$4</textarea>
 
@@ -472,13 +511,13 @@ details+
 summary
 <summary>$1</summary>
 
-command
-<command type="$1" label="$2">$1</command>
-
 menu
 <menu type="$1">
 	$2
 </menu>
+
+command
+<command type="$1" label="$2">$1</command>
 
 ## Edits  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -529,11 +568,11 @@ audio+
 source
 <source src="$1" type="$2">
 
-canvas
-<canvas id="${1:canvas}" width="${2:640}" height="${3:480}">$4</canvas>
-
 track
 <track src="$1" label="$4">
+
+canvas
+<canvas id="${1:canvas}" width="${2:640}" height="${3:480}">$4</canvas>
 
 map
 <map name="$1">
