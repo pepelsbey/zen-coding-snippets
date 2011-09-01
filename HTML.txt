@@ -18,6 +18,11 @@ doc
 <!DOCTYPE html>
 
 html
+<html>
+	$0
+</html>
+
+html5
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +34,7 @@ html
 </body>
 </html>
 
-html:en
+html5:en
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -41,7 +46,7 @@ html:en
 </body>
 </html>
 
-html:ru
+html5:ru
 <!DOCTYPE html>
 <html lang="ru-RU">
 <head>
