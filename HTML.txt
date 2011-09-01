@@ -2,6 +2,13 @@
 # Copyright © 2008–2011 Vadim Makeev, http://pepelsbey.net
 # Licensed under MIT license
 
+# Snippet
+
+> snippet
+> result
+
+# Groups
+
 - Head
 - Sections
 - Grouping
@@ -140,8 +147,6 @@ noscript
 <noscript>
 	$1
 </noscript>
-
-### Conditional Comments
 
 cc:ie
 <!--[if IE]>

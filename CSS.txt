@@ -2,6 +2,13 @@
 # Copyright © 2008–2011 Vadim Makeev, http://pepelsbey.net
 # Licensed under MIT license
 
+# Snippet
+
+> snippet
+> result
+
+# Groups
+
 - @rules
 - Pseudo
 - Special
@@ -26,8 +33,6 @@
 @i
 @import url($1);
 
-### Media
-
 @m
 @media {
 	$1
@@ -48,8 +53,6 @@
 	$2
 	}
 
-### Font
-
 @f
 @font-face {
 	font-family:$1;
@@ -66,8 +69,6 @@
 		url($2.ttf) format('truetype'),
 		url($2.svg#$2) format('svg');
 	}
-
-### Keyframes
 
 @k
 @keyframes ${1:name} {
@@ -93,8 +94,6 @@
 @-o-keyframes ${1:name} {
 	$2
 	}
-
-### Page
 
 @p
 @page {
@@ -216,8 +215,6 @@ filter:$1;
 
 ## Positioning  • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-### Position
-
 pos
 position:$1;
 
@@ -233,15 +230,11 @@ position:relative;
 pos:f
 position:fixed;
 
-### Top
-
 t
 top:${1:0};
 
 t:a
 top:auto;
-
-### Right
 
 r
 right:${1:0};
@@ -249,23 +242,17 @@ right:${1:0};
 r:a
 right:auto;
 
-### Bottom
-
 b
 bottom:${1:0};
 
 b:a
 bottom:auto;
 
-### Left
-
 l
 left:${1:0};
 
 l:a
 left:auto;
-
-### Z-Index
 
 z
 z-index:$1;
@@ -274,8 +261,6 @@ z:a
 z-index:auto;
 
 ## Block  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-
-### Float
 
 fl
 float:$1;
@@ -288,8 +273,6 @@ float:left;
 
 fl:r
 float:right;
-
-### Clear
 
 cl
 clear:$1;
@@ -305,8 +288,6 @@ clear:right;
 
 cl:b
 clear:both;
-
-### Display
 
 d
 display:$1;
@@ -365,8 +346,6 @@ display:table-row-group;
 d:tc
 display:table-cell;
 
-### Visibility
-
 v
 visibility:$1;
 
@@ -378,8 +357,6 @@ visibility:hidden;
 
 v:c
 visibility:collapse;
-
-### Overflow
 
 ov
 overflow:$1;
@@ -432,8 +409,6 @@ ovx:ms
 ovy:ms
 -ms-overflow-y:$1;
 
-### Clip
-
 cp
 clip:$1;
 
@@ -443,8 +418,6 @@ clip:auto;
 cp:r
 clip:rect(${1:0} ${2:0} ${3:0} ${4:0});
 
-### Box-Sizing
-
 bs
 box-sizing:$1;
 
@@ -453,8 +426,6 @@ box-sizing:content-box;
 
 bs:bb
 box-sizing:border-box;
-
-### Flex
 
 fxd
 flex-direction:$1;
@@ -512,8 +483,6 @@ flex-align:baseline;
 
 ## Dimensions • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-### Margin
-
 m
 margin:${1:0};
 
@@ -553,8 +522,6 @@ margin-left:${1:0};
 ml:a
 margin-left:auto;
 
-### Padding
-
 p
 padding:${1:0};
 
@@ -579,8 +546,6 @@ padding-bottom:${1:0};
 pl
 padding-left:${1:0};
 
-### Min-Max
-
 miw
 min-width:${1:0};
 
@@ -598,8 +563,6 @@ max-height:${1:0};
 
 mah:n
 max-height:none;
-
-### Width-Height
 
 w
 width:${1:0};
@@ -620,8 +583,6 @@ h:dh
 height:device-height;
 
 ## Colors • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-
-### Outline
 
 o
 outline:$1;
@@ -650,8 +611,6 @@ outline-color:invert;
 oo
 outline-offset:${1:0};
 
-### Border
-
 bd
 border:$1;
 
@@ -670,8 +629,6 @@ border-collapse:collapse;
 bdcl:s
 border-collapse:separate;
 
-### Border-Width
-
 bdw
 border-width:${1:1px};
 
@@ -683,8 +640,6 @@ border-width:${1:1px} ${2:1px} ${3:1px};
 
 bdw:4
 border-width:${1:1px} ${2:1px} ${3:1px} ${4:1px};
-
-### Border-Style
 
 bds
 border-style:$1;
@@ -719,12 +674,8 @@ border-style:inset;
 bds:o
 border-style:outset;
 
-### Border-Color
-
 bdc
 border-color:${1:#000};
-
-### Border-Top
 
 bdt
 border-top:$1;
@@ -747,8 +698,6 @@ border-top-style:none;
 bdtc
 border-top-color:${1:#000};
 
-### Border-Right
-
 bdr
 border-right:$1;
 
@@ -769,8 +718,6 @@ border-right-style:none;
 
 bdrc
 border-right-color:${1:#000};
-
-### Border-Bottom
 
 bdb
 border-bottom:$1;
@@ -793,8 +740,6 @@ border-bottom-style:none;
 bdbc
 border-bottom-color:${1:#000};
 
-### Border-Left
-
 bdl
 border-left:$1;
 
@@ -815,8 +760,6 @@ border-left-style:none;
 
 bdlc
 border-left-color:${1:#000};
-
-### Border-Radius
 
 bdrz
 -webkit-border-radius:${1:0};
@@ -860,8 +803,6 @@ bdtlrz
 -moz-border-top-left-radius:$1;
 border-top-left-radius:$1;
 
-### Border-Image
-
 bdi
 -webkit-border-image:$1;
 -moz-border-image:$1;
@@ -880,8 +821,6 @@ bdi:n
 -o-border-image:none;
 border-image:none;
 
-### Border-Image-Source
-
 bdisr
 -webkit-border-image-source:url($1);
 -moz-border-image-source:url($1);
@@ -893,8 +832,6 @@ bdisr:n
 -moz-border-image-source:none;
 -o-border-image-source:none;
 border-image-source:none;
-
-### Border-Image-Slice
 
 bdisl
 -webkit-border-image-slice:${1:0};
@@ -926,8 +863,6 @@ bdisl:f
 -o-border-image-slice:fill;
 border-image-slice:fill;
 
-### Border-Image-Width
-
 bdiw
 -webkit-border-image-width:${1:0};
 -moz-border-image-width:${1:0};
@@ -958,8 +893,6 @@ bdiw:a
 -o-border-image-width:auto;
 border-image-width:auto;
 
-### Border-Image-Outset
-
 bdio
 -webkit-border-image-outset:${1:0};
 -moz-border-image-outset:${1:0};
@@ -983,8 +916,6 @@ bdio:4
 -moz-border-image-outset:${1:0} ${2:0} ${3:0} ${4:0};
 -o-border-image-outset:${1:0} ${2:0} ${3:0} ${4:0};
 border-image-outset:${1:0} ${2:0} ${3:0} ${4:0};
-
-### Border-Image-Repeat
 
 bdir
 -webkit-border-image-repeat:$1;
@@ -1016,8 +947,6 @@ bdir:sp
 -o-border-image-repeat:space;
 border-image-repeat:space;
 
-### Background
-
 bg
 background:$1;
 
@@ -1030,23 +959,17 @@ background:${1:#FFF} url($2) ${3:0} ${4:0} ${5:no-repeat};
 bg:ief
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$1', sizingMethod='${2:crop}');
 
-### Bg-Color
-
 bgc
 background-color:${1:#FFF};
 
 bgc:t
 background-color:transparent;
 
-### Bg-Image
-
 bgi
 background-image:url($1);
 
 bgi:n
 background-image:none;
-
-### Bg-Image-Gradients
 
 bgi:lg
 background-image:-webkit-linear-gradient(${1:top}, ${2:#000} ${3:0}, ${4:#FFF} ${5:100%});
@@ -1076,8 +999,6 @@ background-image:-ms-repeating-radial-gradient($1, $2 $3, $4 $5);
 background-image:-o-repeating-radial-gradient($1, $2 $3, $4 $5);
 background-image:repeating-radial-gradient($1, $2 $3, $4 $5);
 
-### Bg-Repeat
-
 bgr
 background-repeat:$1;
 
@@ -1099,8 +1020,6 @@ background-repeat:round;
 bgr:n
 background-repeat:no-repeat;
 
-### Bg-Attachment
-
 bga
 background-attachment:$1;
 
@@ -1112,8 +1031,6 @@ background-attachment:local;
 
 bga:s
 background-attachment:scroll;
-
-### Bg-Position
 
 bgp
 background-position:${1:0} ${2:0};
@@ -1130,8 +1047,6 @@ background-position-y:$1;
 bgpy:ms
 -ms-background-position-y:$1;
 
-### Bg-Clip
-
 bgcp
 background-clip:$1;
 
@@ -1143,8 +1058,6 @@ background-clip:padding-box;
 
 bgcp:cb
 background-clip:content-box;
-
-### Bg-Origin
 
 bgo
 background-origin:$1;
@@ -1158,8 +1071,6 @@ background-origin:border-box;
 bgo:cb
 background-origin:content-box;
 
-### Bg-Size
-
 bgz
 background-size:$1;
 
@@ -1172,8 +1083,6 @@ background-size:contain;
 bgz:cov
 background-size:cover;
 
-### Box-Decoration
-
 bdbr
 box-decoration-break:$1;
 
@@ -1182,8 +1091,6 @@ box-decoration-break:slice;
 
 bdbr:c
 box-decoration-break:clone;
-
-### Box-Shadow
 
 bsh
 -webkit-box-shadow:$1;
@@ -1204,8 +1111,6 @@ bsh:i+
 -webkit-box-shadow:${1:0} ${2:0} ${3:0} ${4:#000} ${5:inset};
 -moz-box-shadow:$1 $2 $3 $4 $5;
 box-shadow:$1 $2 $3 $4 $5;
-
-### Linear-Gradient
 
 lg
 linear-gradient($1)
@@ -1243,8 +1148,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=${1:#FF000000}, 
 lg:msf
 -ms-filter:'progid:DXImageTransform.Microsoft.gradient(startColorstr=${1:#FF000000}, endColorstr=${2:#FFFFFFFF});
 
-### Repeating-Linear-Gradient
-
 rlg
 repeating-linear-gradient($1)
 
@@ -1274,8 +1177,6 @@ rlg:o
 
 rlg:o+
 -o-repeating-linear-gradient(${1:top}, ${2:#000} ${3:0}, ${4:#FFF} ${5:25%})
-
-### Radial-Gradient
 
 rg
 radial-gradient($1)
@@ -1307,8 +1208,6 @@ rg:o
 rg:o+
 -o-radial-gradient(${1:center}, ${2:#000} ${3:0}, ${4:#FFF} ${5:100%})
 
-### Repeating-Radial-Gradient
-
 rrg
 repeating-radial-gradient($1)
 
@@ -1339,8 +1238,6 @@ rrg:o
 rrg:o+
 -o-repeating-radial-gradient(${1:center}, ${2:#000} ${3:0}, ${4:#FFF} ${5:25%})
 
-### Color
-
 c
 color:${1:#000};
 
@@ -1357,8 +1254,6 @@ hsla
 hsla(${1:0} ${2:0} ${3:0} ${4:1})
 
 ## Content  • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-
-### Table
 
 tl
 table-layout:$1;
@@ -1386,8 +1281,6 @@ empty-cells:show;
 
 ec:h
 empty-cells:hide;
-
-### List
 
 ls
 list-style:$1;
@@ -1437,8 +1330,6 @@ list-style-image:url($1);
 lsi:n
 list-style-image:none;
 
-### Quotes
-
 q
 quotes:$1;
 
@@ -1450,8 +1341,6 @@ quotes:'\201C' '\201D' '\2018' '\2019';
 
 q:ru
 quotes:'\00AB' '\00BB' '\201E' '\201C';
-
-### Content
 
 ct
 content:$1;
@@ -1494,8 +1383,6 @@ counter-reset:$1;
 wm:ms
 -ms-writing-mode:$1;
 
-### Vertical-Align
-
 va
 vertical-align:$1;
 
@@ -1522,8 +1409,6 @@ vertical-align:text-bottom;
 
 va:sub
 vertical-align:sub;
-
-### Text-Align
 
 ta
 text-align:$1;
@@ -1567,8 +1452,6 @@ text-align-last:right;
 tal:j
 text-align-last:justify;
 
-### Text-Decoration
-
 td
 text-decoration:$1;
 
@@ -1584,8 +1467,6 @@ text-decoration:line-through;
 td:u
 text-decoration:underline;
 
-### Text-Emphasis
-
 te
 text-emphasis:$1;
 
@@ -1598,8 +1479,6 @@ text-emphasis-style:$1;
 tep
 text-emphasis-position:$1;
 
-### Text-Indent
-
 ti
 text-indent:$1;
 
@@ -1611,8 +1490,6 @@ text-indent:hanging;
 
 ti:-
 text-indent:-9999px;
-
-### Text-Justify
 
 tj
 text-justify:$1;
@@ -1650,8 +1527,6 @@ text-justify:newspaper;
 tj:t
 text-justify:tibetan;
 
-### Text-Outline
-
 to
 text-outline:$1;
 
@@ -1660,8 +1535,6 @@ text-outline:none;
 
 to+
 text-outline:${1:0} ${2:0} ${3:#000};
-
-### Text-Transform
 
 tt
 text-transform:$1;
@@ -1681,8 +1554,6 @@ text-transform:lowercase;
 tt:f
 text-transform:fullwidth;
 
-### Text-Wrap
-
 tw
 text-wrap:$1;
 
@@ -1697,8 +1568,6 @@ text-wrap:unrestricted;
 
 tw:a
 text-wrap:avoid;
-
-### Text-Overflow
 
 tov
 text-overflow:$1;
@@ -1721,8 +1590,6 @@ text-overflow-mode:ellipsis;
 tovm:ew
 text-overflow-mode:ellipsis-word;
 
-### Text-Shadow
-
 tsh
 text-shadow:$1;
 
@@ -1732,15 +1599,11 @@ text-shadow:none;
 tsh+
 text-shadow:${1:0} ${2:0} ${3:0} ${4:#000};
 
-### Line-Height
-
 lh
 line-height:${1:1};
 
 lh:n
 line-height:normal;
-
-### White-Space
 
 whs
 white-space:$1;
@@ -1759,8 +1622,6 @@ white-space:pre-wrap;
 
 whs:pl
 white-space:pre-line;
-
-### Word
 
 wos
 word-spacing:$1;
@@ -1786,14 +1647,10 @@ word-break:$1;
 wob:ms
 -ms-word-break:$1;
 
-### Tab
-
 ts
 -moz-tab-size:$1;
 -o-tab-size:$1;
 tab-size:$1;
-
-### Hyphens
 
 hy
 -webkit-hyphens:$1;
@@ -1815,23 +1672,17 @@ hy:a
 -moz-hyphens:auto;
 hyphens:auto;
 
-### Letter
-
 les
 letter-spacing:$1;
 
 les:n
 letter-spacing:normal;
 
-### Font
-
 f
 font:$1;
 
 f+
 font:${1:1em} ${2:Arial}, ${3:sans-serif};
-
-### Font-weight
 
 fw
 font-weight:$1;
@@ -1875,8 +1726,6 @@ font-weight:800;
 fw:9
 font-weight:900;
 
-### Font-Style
-
 fs
 font-style:$1;
 
@@ -1889,8 +1738,6 @@ font-style:italic;
 fs:o
 font-style:oblique;
 
-### Font-Variant
-
 fv
 font-variant:$1;
 
@@ -1900,15 +1747,11 @@ font-variant:normal;
 fv:sc
 font-variant:small-caps;
 
-### Font-Size-Adjust
-
 fza
 font-size-adjust:$1;
 
 fza:n
 font-size-adjust:none;
-
-### Font-Stretch
 
 fst
 font-stretch:$1;
@@ -1940,12 +1783,8 @@ font-stretch:extra-expanded;
 fst:ue
 font-stretch:ultra-expanded;
 
-### Font-Size
-
 fz
 font-size:$1;
-
-### Font-Family
 
 ff
 font-family:$1;
@@ -1967,8 +1806,6 @@ font-family:monospace;
 
 ## Visual • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-### Opacity
-
 op
 opacity:$1;
 
@@ -1978,8 +1815,6 @@ filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100});
 op:msf
 -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100})';
 
-### Interpolation-Mode
-
 im:ms
 -ms-interpolation-mode:$1;
 
@@ -1988,8 +1823,6 @@ im:msb
 
 im:msn
 -ms-interpolation-mode:nearest-neighbor;
-
-### Resize
 
 r
 resize:$1;
@@ -2005,8 +1838,6 @@ resize:horizontal;
 
 r:v
 resize:vertical;
-
-### Cursor
 
 cur
 cursor:$1;
@@ -2107,8 +1938,6 @@ cursor:row-resize;
 cur:als
 cursor:all-scroll;
 
-### Nav
-
 ni
 nav-index:$1;
 
@@ -2138,8 +1967,6 @@ nav-left:$1;
 
 nl:a
 nav-left:auto;
-
-### Transition
 
 tr
 -webkit-transition:$1;
@@ -2238,8 +2065,6 @@ trp:n
 -ms-transition-property:none;
 -o-transition-property:none;
 transition-property:none;
-
-### Transform
 
 tf
 -webkit-transform:$1;
@@ -2388,8 +2213,6 @@ tfo
 -o-transform-origin:$1 $2;
 transform-origin:$1 $2;
 
-### Animation
-
 an
 -webkit-animation:$1;
 -moz-animation:$1;
@@ -2492,8 +2315,6 @@ animation-direction:alternate;
 
 ## Layout • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-### Unicode
-
 ub
 unicode-bidi:$1;
 
@@ -2506,8 +2327,6 @@ unicode-bidi:embed;
 ub:bo
 unicode-bidi:bidi-override;
 
-### Direction
-
 dir
 direction:$1;
 
@@ -2516,8 +2335,6 @@ direction:ltr;
 
 dir:r
 direction:rtl;
-
-### Columns
 
 col
 -webkit-columns:${1:0} ${2:0};
@@ -2614,8 +2431,6 @@ corw
 -moz-column-rule-width:$1;
 column-rule-width:$1;
 
-### Break
-
 brb
 break-before:$1;
 
@@ -2691,8 +2506,6 @@ break-after:avoid-page;
 bra:ac
 break-after:avoid-column;
 
-### Page
-
 pbb
 page-break-before:$1;
 
@@ -2732,8 +2545,6 @@ page-break-after:left;
 pba:r
 page-break-after:right;
 
-### Special
-
 orp
 orphans:$1;
 
@@ -2741,8 +2552,6 @@ wid
 widows:$1;
 
 ## Document • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-
-### Zoom
 
 zo
 zoom:$1;
@@ -2773,8 +2582,6 @@ user-zoom:zoom;
 
 uz:f
 user-zoom:fixed;
-
-### Orientation
 
 or
 orientation:$1;
