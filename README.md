@@ -1,6 +1,6 @@
 # Zen Coding Snippets
 
-HTML and CSS snippets for [Zen Coding](https://github.com/sergeche/zen-coding) project.
+HTML and CSS snippets for [Zen Coding](https://github.com/sergeche/zen-coding) project, follow [@zen_coding](http://twitter.com/zen_coding) for updates.
 
 Special repository for creating new snippets and polishing old ones. Syntax of the snippets is compatible with [TextMate snippets](http://manual.macromates.com/en/snippets).
 
@@ -65,7 +65,7 @@ background-image:-o-linear-gradient($1, $2 $3, $4 $5);
 background-image:linear-gradient($1, $2 $3, $4 $5);
 ```
 
-Cross-browser transition by `tr=`
+Cross-browser transition by `tr`
 
 ```css
 -webkit-transition:${1:all} ${2:linear} ${3:1s};
