@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string> {
+	$0
+${ZC_CSS_BeforeLastBrace}}</string>
+	<key>keyEquivalent</key>
+	<string>@</string>
+	<key>name</key>
+	<string>Bracket Shortcut</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>uuid</key>
+	<string>4DD3DBBF-CFB8-40FA-808F-07E94689F33D</string>
+</dict>
+</plist>

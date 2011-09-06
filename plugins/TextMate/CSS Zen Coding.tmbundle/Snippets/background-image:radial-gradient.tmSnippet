@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>background-image:${ZC_CSS_AfterColon}-webkit-radial-gradient(${1:center}, ${2:#000} ${3:0}, ${4:#FFF} ${5:100%});
+background-image:${ZC_CSS_AfterColon}-moz-radial-gradient($1, $2 $3, $4 $5);
+background-image:${ZC_CSS_AfterColon}-ms-radial-gradient($1, $2 $3, $4 $5);
+background-image:${ZC_CSS_AfterColon}-o-radial-gradient($1, $2 $3, $4 $5);
+background-image:${ZC_CSS_AfterColon}radial-gradient($1, $2 $3, $4 $5);</string>
+	<key>name</key>
+	<string>background-image:radial-gradient</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>bgi:rg</string>
+	<key>uuid</key>
+	<string>4BFA0B07-FEFD-4BD9-BECD-DAA4D0146F7B</string>
+</dict>
+</plist>

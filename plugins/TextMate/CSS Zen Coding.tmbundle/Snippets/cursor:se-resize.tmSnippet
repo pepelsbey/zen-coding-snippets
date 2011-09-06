@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>cursor:${ZC_CSS_AfterColon}se-resize;</string>
+	<key>name</key>
+	<string>cursor:se-resize</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>cur:ser</string>
+	<key>uuid</key>
+	<string>DAF2A2A1-83F7-4EDE-BB4D-46AC7256F0ED</string>
+</dict>
+</plist>

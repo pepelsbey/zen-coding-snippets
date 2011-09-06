@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>filter:${ZC_CSS_AfterColon}progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$1', sizingMethod='${2:crop}');</string>
+	<key>name</key>
+	<string>background:ie-filter</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>bg:ief</string>
+	<key>uuid</key>
+	<string>958BB943-6790-48CF-9E48-4FC8B186178A</string>
+</dict>
+</plist>

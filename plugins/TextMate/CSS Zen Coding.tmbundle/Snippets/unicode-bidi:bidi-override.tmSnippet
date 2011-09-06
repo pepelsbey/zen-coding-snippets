@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>unicode-bidi:${ZC_CSS_AfterColon}bidi-override;</string>
+	<key>name</key>
+	<string>unicode-bidi:bidi-override</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ub:bo</string>
+	<key>uuid</key>
+	<string>4F7E6B3E-57D3-4DC2-8E98-FE0D73742568</string>
+</dict>
+</plist>

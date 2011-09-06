@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-animation-play-state:${ZC_CSS_AfterColon}paused;
+-moz-animation-play-state:${ZC_CSS_AfterColon}paused;
+-ms-animation-play-state:${ZC_CSS_AfterColon}paused;
+-o-animation-play-state:${ZC_CSS_AfterColon}paused;
+animation-play-state:${ZC_CSS_AfterColon}paused;</string>
+	<key>name</key>
+	<string>animation-play-state:paused</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>anps:p</string>
+	<key>uuid</key>
+	<string>9F69C16A-CEE4-4703-844F-B425204C644D</string>
+</dict>
+</plist>

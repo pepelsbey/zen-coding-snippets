@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-transform:${ZC_CSS_AfterColon}matrix3d(${1:0}, ${2:0}, ${3:0}, ${4:0}, ${5:0}, ${6:0});
+-moz-transform:${ZC_CSS_AfterColon}matrix3d($1, $2, $3, $4, $5, $6);
+-ms-transform:${ZC_CSS_AfterColon}matrix3d($1, $2, $3, $4, $5, $6);
+-o-transform:${ZC_CSS_AfterColon}matrix3d($1, $2, $3, $4, $5, $6);
+transform:${ZC_CSS_AfterColon}matrix3d($1, $2, $3, $4, $5, $6);</string>
+	<key>name</key>
+	<string>transform:matrix3d</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>tf:mx3</string>
+	<key>uuid</key>
+	<string>EE2ECF7A-3A45-4D84-BAA8-008A8E38E28A</string>
+</dict>
+</plist>

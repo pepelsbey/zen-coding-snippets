@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-ms-filter:${ZC_CSS_AfterColon}'progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100})';</string>
+	<key>name</key>
+	<string>opacity:ms-filter</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>op:msf</string>
+	<key>uuid</key>
+	<string>03D4A5D6-4993-491B-A76B-F8B1D0DBA85F</string>
+</dict>
+</plist>

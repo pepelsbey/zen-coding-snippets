@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>text-justify:${ZC_CSS_AfterColon}kashida;</string>
+	<key>name</key>
+	<string>text-justify:kashida</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>tj:k</string>
+	<key>uuid</key>
+	<string>B7283BD3-1D30-4368-9C65-28880BD120ED</string>
+</dict>
+</plist>

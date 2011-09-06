@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>break-before:${ZC_CSS_AfterColon}$1;</string>
+	<key>name</key>
+	<string>break-before</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>brb</string>
+	<key>uuid</key>
+	<string>C3FBC288-DA52-4D75-9BE8-8CE3667717B8</string>
+</dict>
+</plist>

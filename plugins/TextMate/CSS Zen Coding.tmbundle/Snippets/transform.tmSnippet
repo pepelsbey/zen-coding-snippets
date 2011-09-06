@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-transform:${ZC_CSS_AfterColon}$1;
+-moz-transform:${ZC_CSS_AfterColon}$1;
+-ms-transform:${ZC_CSS_AfterColon}$1;
+-o-transform:${ZC_CSS_AfterColon}$1;
+transform:${ZC_CSS_AfterColon}$1;</string>
+	<key>name</key>
+	<string>transform</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>tf</string>
+	<key>uuid</key>
+	<string>9CA5F374-B079-4C5D-92DF-26D177467A82</string>
+</dict>
+</plist>

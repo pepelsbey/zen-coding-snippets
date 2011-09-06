@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>flex-pack:${ZC_CSS_AfterColon}$1;</string>
+	<key>name</key>
+	<string>flex-pack</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>fxp</string>
+	<key>uuid</key>
+	<string>D0FBF456-8E7C-4330-93FC-07040C25F703</string>
+</dict>
+</plist>

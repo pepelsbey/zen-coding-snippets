@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>outline-color:${ZC_CSS_AfterColon}${1:#000};</string>
+	<key>name</key>
+	<string>outline-color</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>oc</string>
+	<key>uuid</key>
+	<string>5C68B930-BA92-4EBC-A182-C52BA81D267D</string>
+</dict>
+</plist>

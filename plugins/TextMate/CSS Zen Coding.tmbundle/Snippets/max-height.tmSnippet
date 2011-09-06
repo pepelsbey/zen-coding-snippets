@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>max-height:${ZC_CSS_AfterColon}${1:0};</string>
+	<key>name</key>
+	<string>max-height</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>mah</string>
+	<key>uuid</key>
+	<string>EF0C3886-AC06-475F-8AA1-1C9854C7BC58</string>
+</dict>
+</plist>

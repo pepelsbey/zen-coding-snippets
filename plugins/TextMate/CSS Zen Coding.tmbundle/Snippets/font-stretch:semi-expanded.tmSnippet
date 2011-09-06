@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>font-stretch:${ZC_CSS_AfterColon}semi-expanded;</string>
+	<key>name</key>
+	<string>font-stretch:semi-expanded</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>fst:se</string>
+	<key>uuid</key>
+	<string>833239CB-B5DE-45E3-A9BD-4616A264B454</string>
+</dict>
+</plist>

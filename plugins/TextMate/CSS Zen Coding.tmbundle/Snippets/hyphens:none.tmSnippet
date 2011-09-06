@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-hyphens:${ZC_CSS_AfterColon}none;
+-moz-hyphens:${ZC_CSS_AfterColon}none;
+hyphens:${ZC_CSS_AfterColon}none;</string>
+	<key>name</key>
+	<string>hyphens:none</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>hy:n</string>
+	<key>uuid</key>
+	<string>D3AF49ED-5644-44F8-8472-CEF6886AF588</string>
+</dict>
+</plist>

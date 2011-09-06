@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-radial-gradient(${1:center}, ${2:#000} ${3:0}, ${4:#FFF} ${5:100%})</string>
+	<key>name</key>
+	<string>-webkit-radial-gradient +</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>rg:w+</string>
+	<key>uuid</key>
+	<string>423D4FEE-EA10-4DA6-80DC-381424CD63E7</string>
+</dict>
+</plist>

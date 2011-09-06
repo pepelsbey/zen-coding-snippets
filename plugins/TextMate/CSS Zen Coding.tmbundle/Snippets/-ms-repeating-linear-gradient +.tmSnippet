@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-ms-repeating-linear-gradient(${1:top}, ${2:#000} ${3:0}, ${4:#FFF} ${5:25%})</string>
+	<key>name</key>
+	<string>-ms-repeating-linear-gradient +</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>rlg:ms+</string>
+	<key>uuid</key>
+	<string>786E1876-C33D-4C5E-9BEB-3B6AC3ADE132</string>
+</dict>
+</plist>

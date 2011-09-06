@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>font-family:${ZC_CSS_AfterColon}cursive;</string>
+	<key>name</key>
+	<string>font-family:cursive</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ff:c</string>
+	<key>uuid</key>
+	<string>90044A8F-3C79-4D27-A795-F72EDFAC549D</string>
+</dict>
+</plist>

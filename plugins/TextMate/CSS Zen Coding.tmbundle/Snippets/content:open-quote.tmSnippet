@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>content:${ZC_CSS_AfterColon}open-quote;</string>
+	<key>name</key>
+	<string>content:open-quote</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ct:oq</string>
+	<key>uuid</key>
+	<string>B9BC5EA4-7CF8-4FF0-80C4-202F09A12780</string>
+</dict>
+</plist>

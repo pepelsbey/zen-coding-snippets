@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@viewport {
+	$1
+${ZC_CSS_BeforeLastBrace}}</string>
+	<key>name</key>
+	<string>@viewport</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>@v</string>
+	<key>uuid</key>
+	<string>A5185549-1C7D-4EDF-A617-65922BBD3F55</string>
+</dict>
+</plist>

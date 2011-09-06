@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>text-transform:${ZC_CSS_AfterColon}capitalize;</string>
+	<key>name</key>
+	<string>text-transform:capitalize</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>tt:с</string>
+	<key>uuid</key>
+	<string>F42C48BA-66BD-497E-AD76-E6894F34C317</string>
+</dict>
+</plist>

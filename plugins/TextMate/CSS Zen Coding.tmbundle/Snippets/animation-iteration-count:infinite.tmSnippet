@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-animation-iteration-count:${ZC_CSS_AfterColon}infinite;
+-moz-animation-iteration-count:${ZC_CSS_AfterColon}infinite;
+-ms-animation-iteration-count:${ZC_CSS_AfterColon}infinite;
+-o-animation-iteration-count:${ZC_CSS_AfterColon}infinite;
+animation-iteration-count:${ZC_CSS_AfterColon}infinite;</string>
+	<key>name</key>
+	<string>animation-iteration-count:infinite</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>anic:i</string>
+	<key>uuid</key>
+	<string>A1D46A77-9898-4B61-9720-0CD7DBCB4153</string>
+</dict>
+</plist>

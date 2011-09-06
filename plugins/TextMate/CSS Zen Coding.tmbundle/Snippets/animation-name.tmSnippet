@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-animation-name:${ZC_CSS_AfterColon}$1;
+-moz-animation-name:${ZC_CSS_AfterColon}$1;
+-ms-animation-name:${ZC_CSS_AfterColon}$1;
+-o-animation-name:${ZC_CSS_AfterColon}$1;
+animation-name:${ZC_CSS_AfterColon}$1;</string>
+	<key>name</key>
+	<string>animation-name</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ann</string>
+	<key>uuid</key>
+	<string>6F41DA44-4FE6-4F8D-B8CD-AF6DC0B07064</string>
+</dict>
+</plist>

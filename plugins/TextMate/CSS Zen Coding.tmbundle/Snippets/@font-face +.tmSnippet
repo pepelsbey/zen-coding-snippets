@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@font-face {
+	font-family:${ZC_CSS_AfterColon}${1:FontFamily};
+	src:${ZC_CSS_AfterColon}url(${2:font}.eot);
+	src:
+		url($2.eot?iefix) format('eot'),
+		url($2.woff) format('woff'),
+		url($2.ttf) format('truetype'),
+		url($2.svg#$2) format('svg');
+${ZC_CSS_BeforeLastBrace}}</string>
+	<key>name</key>
+	<string>@font-face +</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>@f+</string>
+	<key>uuid</key>
+	<string>3A87C8CC-5836-44BF-9514-EB617B26269A</string>
+</dict>
+</plist>

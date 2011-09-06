@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>flex-direction:${ZC_CSS_AfterColon}inline-reverse;</string>
+	<key>name</key>
+	<string>flex-direction:inline-reverse</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>fxd:ir</string>
+	<key>uuid</key>
+	<string>486B1E04-7331-447D-AE86-F12F60031FDB</string>
+</dict>
+</plist>

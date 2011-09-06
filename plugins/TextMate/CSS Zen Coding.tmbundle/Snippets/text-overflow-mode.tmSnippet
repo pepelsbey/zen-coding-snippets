@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>text-overflow-mode:${ZC_CSS_AfterColon}$1;</string>
+	<key>name</key>
+	<string>text-overflow-mode</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>tovm</string>
+	<key>uuid</key>
+	<string>196C7A73-FD2B-4610-B811-95EE91C5C92A</string>
+</dict>
+</plist>

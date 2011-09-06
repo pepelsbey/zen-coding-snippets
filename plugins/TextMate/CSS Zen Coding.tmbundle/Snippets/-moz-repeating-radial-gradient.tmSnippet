@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-moz-repeating-radial-gradient($1)</string>
+	<key>name</key>
+	<string>-moz-repeating-radial-gradient</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>rrg:m</string>
+	<key>uuid</key>
+	<string>D266B999-E37D-4749-9D02-B431A3BD5857</string>
+</dict>
+</plist>

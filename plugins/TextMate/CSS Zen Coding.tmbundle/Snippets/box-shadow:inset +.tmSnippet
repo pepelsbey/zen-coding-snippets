@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-box-shadow:${ZC_CSS_AfterColon}${1:0} ${2:0} ${3:0} ${4:#000} ${5:inset};
+-moz-box-shadow:${ZC_CSS_AfterColon}$1 $2 $3 $4 $5;
+box-shadow:${ZC_CSS_AfterColon}$1 $2 $3 $4 $5;</string>
+	<key>name</key>
+	<string>box-shadow:inset +</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>bsh:i+</string>
+	<key>uuid</key>
+	<string>1EC693C7-D082-414E-81C5-F3FEAC75346D</string>
+</dict>
+</plist>

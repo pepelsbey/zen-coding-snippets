@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-transform:${ZC_CSS_AfterColon}perspective(${1:0});
+-moz-transform:${ZC_CSS_AfterColon}perspective($1);
+-ms-transform:${ZC_CSS_AfterColon}perspective($1);
+-o-transform:${ZC_CSS_AfterColon}perspective($1);
+transform:${ZC_CSS_AfterColon}perspective($1);</string>
+	<key>name</key>
+	<string>transform:perspective</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>tf:per</string>
+	<key>uuid</key>
+	<string>ABAD6B13-77AB-4974-B4D7-C33E8976139A</string>
+</dict>
+</plist>

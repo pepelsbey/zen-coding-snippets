@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-border-image-width:${ZC_CSS_AfterColon}auto;
+-moz-border-image-width:${ZC_CSS_AfterColon}auto;
+-o-border-image-width:${ZC_CSS_AfterColon}auto;
+border-image-width:${ZC_CSS_AfterColon}auto;</string>
+	<key>name</key>
+	<string>border-image-width:auto</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>bdiw:a</string>
+	<key>uuid</key>
+	<string>67A922E7-3FB0-4C1E-A5C2-CE990A5B895E</string>
+</dict>
+</plist>

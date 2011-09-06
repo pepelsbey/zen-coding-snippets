@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>text-indent:${ZC_CSS_AfterColon}hanging;</string>
+	<key>name</key>
+	<string>text-indent:hanging</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ti:h</string>
+	<key>uuid</key>
+	<string>ADCB383B-F1AE-419E-9248-0B8B8C4FC537</string>
+</dict>
+</plist>

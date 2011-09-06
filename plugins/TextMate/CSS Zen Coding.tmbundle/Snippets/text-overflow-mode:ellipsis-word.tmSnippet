@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>text-overflow-mode:${ZC_CSS_AfterColon}ellipsis-word;</string>
+	<key>name</key>
+	<string>text-overflow-mode:ellipsis-word</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>tovm:ew</string>
+	<key>uuid</key>
+	<string>B8EB1F46-2B46-4193-9A5A-B48DB9484D29</string>
+</dict>
+</plist>

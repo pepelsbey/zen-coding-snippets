@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Disabled Pairing</string>
+	<key>scope</key>
+	<string>meta.property-list.css -meta.property-value</string>
+	<key>settings</key>
+	<dict>
+		<key>smartTypingPairs</key>
+		<array/>
+	</dict>
+	<key>uuid</key>
+	<string>D54F3754-AB7D-475A-A524-699AAE68BD0F</string>
+</dict>
+</plist>

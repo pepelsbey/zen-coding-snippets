@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-transition-timing-function:${ZC_CSS_AfterColon}ease-out;
+-moz-transition-timing-function:${ZC_CSS_AfterColon}ease-out;
+-ms-transition-timing-function:${ZC_CSS_AfterColon}ease-out;
+-o-transition-timing-function:${ZC_CSS_AfterColon}ease-out;
+transition-timing-function:${ZC_CSS_AfterColon}ease-out;</string>
+	<key>name</key>
+	<string>transition-timing-function:ease-out</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>trtf:eo</string>
+	<key>uuid</key>
+	<string>53D922FD-2778-4AAA-B4D9-4F70316B9BCB</string>
+</dict>
+</plist>

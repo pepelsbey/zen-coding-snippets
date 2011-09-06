@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-o-radial-gradient(${1:center}, ${2:#000} ${3:0}, ${4:#FFF} ${5:100%})</string>
+	<key>name</key>
+	<string>-o-radial-gradient +</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>rg:o+</string>
+	<key>uuid</key>
+	<string>0BB4784B-F9B5-475E-9482-F5DB3FF80A7C</string>
+</dict>
+</plist>
