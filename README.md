@@ -86,11 +86,8 @@ There are two variables that controls CSS formatting:
 ```css
 @font-face {
 	…
-	}
-```
-
-```css
+}
 @font-face {
 	…
-}
+→   }
 ```
