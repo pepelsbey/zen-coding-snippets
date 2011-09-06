@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;input type="datetime-local" name="$1" value="$2"&gt;</string>
+	<key>name</key>
+	<string>input:datetime-local</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>input:datetime-local</string>
+	<key>uuid</key>
+	<string>D814124C-E5E2-465C-A889-2EB1CA1E3316</string>
+</dict>
+</plist>

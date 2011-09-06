@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;video${1: src="$2"}${3: controls}&gt;$4&lt;/video&gt;</string>
+	<key>name</key>
+	<string>video</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>video</string>
+	<key>uuid</key>
+	<string>8B10F689-C6ED-4A13-B592-4F7B11C18D69</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;meta http-equiv="x-ua-compatible" content="${1:ie=edge}"&gt;</string>
+	<key>name</key>
+	<string>meta:comp</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>meta:key</string>
+	<key>uuid</key>
+	<string>063F2F6B-22DD-48D0-BCAF-24E8D40A9ED7</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;canvas id="${1:canvas}" width="${2:640}" height="${3:480}"&gt;$4&lt;/canvas&gt;</string>
+	<key>name</key>
+	<string>canvas</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>canvas</string>
+	<key>uuid</key>
+	<string>3FC1612B-C24C-4D10-8B98-8F6C620D98D2</string>
+</dict>
+</plist>

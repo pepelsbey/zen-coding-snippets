@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;thead&gt;
+	$1
+&lt;/thead&gt;</string>
+	<key>name</key>
+	<string>thead</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>thead</string>
+	<key>uuid</key>
+	<string>FBF8BCE9-406F-428C-B159-EB802BC5980D</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;meta http-equiv="x-ua-compatible" content="${1:chrome=1}"&gt;</string>
+	<key>name</key>
+	<string>meta:chrome</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>meta:chrome</string>
+	<key>uuid</key>
+	<string>36823685-7A74-43D6-9C0A-F8918447CCD5</string>
+</dict>
+</plist>

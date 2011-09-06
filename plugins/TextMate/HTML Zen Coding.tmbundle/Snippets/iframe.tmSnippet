@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;iframe src="$1" height="$2" width="$3"&gt;&lt;/iframe&gt;</string>
+	<key>name</key>
+	<string>iframe</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>iframe</string>
+	<key>uuid</key>
+	<string>BDEC994E-1A37-47FA-B366-089E19DFF083</string>
+</dict>
+</plist>
