@@ -74,3 +74,25 @@ Cross-browser transition by `tr`
 -o-transition:$1 $2 $3;
 transition:$1 $2 $3;
 ```
+
+## TextMate Specific Options
+
+There are two variables that controls CSS formatting:
+
+* `ZC_CSS_AfterColon` it could be empty or contains space, resulted output respectively:
+
+`color:#000;` or `color: #000;`
+
+* `ZC_CSS_BeforeLastBrace` it could be empty or contains tab symbol, see output respectively:
+
+```css
+@font-face {
+	…
+	}
+```
+
+```css
+@font-face {
+	…
+}
+```
