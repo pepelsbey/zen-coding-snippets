@@ -89,5 +89,5 @@ There are two variables that controls CSS formatting:
 }
 @font-face {
 	…
-→   }
+	}
 ```
