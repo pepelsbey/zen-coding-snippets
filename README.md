@@ -18,7 +18,7 @@ Example: `video+` will be expanded into
 </video>
 ```
 
-HTML5 template by `html`
+HTML5 template by `html5`
 
 ```html
 <!DOCTYPE html>
