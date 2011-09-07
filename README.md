@@ -81,13 +81,18 @@ There are two variables that controls CSS formatting:
 
 * `ZC_CSS_AfterColon` it could be empty or contains space, resulted output respectively: `color:#000;` or `color: #000;`.
 
-* `ZC_CSS_BeforeLastBrace` it could be empty or contains tab symbol, see output respectively:
+* `ZC_CSS_BeforeLastBrace` it could be empty or contains tab symbol, output of the last bracket will change respectively:
 
 ```css
 @font-face {
-	…
+	font-family:;
 }
 @font-face {
-	…
+	font-family:;
 	}
 ```
+
+To add variables to TextMate:
+
+* Go to Preferences — Advanced — Shell Variables;
+* Press plus button, add variable and its value.
