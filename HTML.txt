@@ -602,7 +602,7 @@ audio
 
 audio+
 <audio${1: controls}>
-	<source src="${2:video}.mp3" type="audio/mpeg">
+	<source src="${2:audio}.mp3" type="audio/mpeg">
 	<source src="$2.ogg" type="audio/ogg">
 </audio>
 
