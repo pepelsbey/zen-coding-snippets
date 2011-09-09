@@ -1824,19 +1824,19 @@ im:msb
 im:msn
 -ms-interpolation-mode:nearest-neighbor;
 
-r
+rz
 resize:$1;
 
-r:n
+rz:n
 resize:none;
 
-r:b
+rz:b
 resize:both;
 
-r:h
+rz:h
 resize:horizontal;
 
-r:v
+rz:v
 resize:vertical;
 
 cur
