@@ -216,7 +216,7 @@ footer
 </footer>
 
 h
-<h{1:1}>$2</h${1}>
+<h${1:1}>$2</h${1}>
 
 hgroup
 <hgroup>
