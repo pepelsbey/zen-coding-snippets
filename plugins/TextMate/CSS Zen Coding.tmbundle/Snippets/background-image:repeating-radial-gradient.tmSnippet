@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background-image:${ZC_CSS_AfterColon}-webkit-repeating-radial-gradient(${1:center}, ${2:#000} ${3:0}, ${4:#FFF} ${5:25%});
+	<string>background-image:${ZC_CSS_AfterColon}-webkit-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%});
 background-image:${ZC_CSS_AfterColon}-moz-repeating-radial-gradient($1, $2 $3, $4 $5);
 background-image:${ZC_CSS_AfterColon}-ms-repeating-radial-gradient($1, $2 $3, $4 $5);
 background-image:${ZC_CSS_AfterColon}-o-repeating-radial-gradient($1, $2 $3, $4 $5);

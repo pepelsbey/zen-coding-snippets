@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>border-left:${ZC_CSS_AfterColon}${1:1px} ${2:solid} ${3:#000};</string>
+	<string>border-left:${ZC_CSS_AfterColon}${1:1px} ${2:solid} #${3:000};</string>
 	<key>name</key>
 	<string>border-left +</string>
 	<key>scope</key>

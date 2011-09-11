@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-o-repeating-radial-gradient(${1:center}, ${2:#000} ${3:0}, ${4:#FFF} ${5:25%})</string>
+	<string>-o-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})</string>
 	<key>name</key>
 	<string>-o-repeating-radial-gradient +</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-box-shadow:${ZC_CSS_AfterColon}${1:0} ${2:0} ${3:0} ${4:#000} ${5:inset};
+	<string>-webkit-box-shadow:${ZC_CSS_AfterColon}${1:0} ${2:0} ${3:0} #${4:000} ${5:inset};
 -moz-box-shadow:${ZC_CSS_AfterColon}$1 $2 $3 $4 $5;
 box-shadow:${ZC_CSS_AfterColon}$1 $2 $3 $4 $5;</string>
 	<key>name</key>

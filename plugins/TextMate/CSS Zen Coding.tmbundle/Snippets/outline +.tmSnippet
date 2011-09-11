@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>outline:${ZC_CSS_AfterColon}${1:1px} ${2:dotted} ${3:#000};</string>
+	<string>outline:${ZC_CSS_AfterColon}${1:1px} ${2:dotted} #${3:000};</string>
 	<key>name</key>
 	<string>outline +</string>
 	<key>scope</key>

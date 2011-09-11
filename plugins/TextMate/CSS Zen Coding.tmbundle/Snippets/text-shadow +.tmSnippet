@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>text-shadow:${ZC_CSS_AfterColon}${1:0} ${2:0} ${3:0} ${4:#000};</string>
+	<string>text-shadow:${ZC_CSS_AfterColon}${1:0} ${2:0} ${3:0} #${4:000};</string>
 	<key>name</key>
 	<string>text-shadow +</string>
 	<key>scope</key>

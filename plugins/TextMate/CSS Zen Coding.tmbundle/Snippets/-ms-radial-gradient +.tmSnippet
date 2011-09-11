@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-ms-radial-gradient(${1:center}, ${2:#000} ${3:0}, ${4:#FFF} ${5:100%})</string>
+	<string>-ms-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})</string>
 	<key>name</key>
 	<string>-ms-radial-gradient +</string>
 	<key>scope</key>

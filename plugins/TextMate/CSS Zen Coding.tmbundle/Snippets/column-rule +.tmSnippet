@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-column-rule:${ZC_CSS_AfterColon}${1:1px} ${2:solid} ${3:#000};
+	<string>-webkit-column-rule:${ZC_CSS_AfterColon}${1:1px} ${2:solid} #${3:000};
 -moz-column-rule:${ZC_CSS_AfterColon}${ZC_CSS_AfterColon}$1 $2 $3;
 column-rule:${ZC_CSS_AfterColon}${ZC_CSS_AfterColon}$1 $2 $3;</string>
 	<key>name</key>

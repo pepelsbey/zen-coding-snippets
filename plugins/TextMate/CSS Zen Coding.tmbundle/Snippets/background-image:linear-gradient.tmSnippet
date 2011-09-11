@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background-image:${ZC_CSS_AfterColon}-webkit-linear-gradient(${1:top}, ${2:#000} ${3:0}, ${4:#FFF} ${5:100%});
+	<string>background-image:${ZC_CSS_AfterColon}-webkit-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%});
 background-image:${ZC_CSS_AfterColon}-moz-linear-gradient($1, $2 $3, $4 $5);
 background-image:${ZC_CSS_AfterColon}-ms-linear-gradient($1, $2 $3, $4 $5);
 background-image:${ZC_CSS_AfterColon}-o-linear-gradient($1, $2 $3, $4 $5);

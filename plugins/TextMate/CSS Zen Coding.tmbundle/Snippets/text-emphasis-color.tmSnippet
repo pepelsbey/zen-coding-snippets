@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>text-emphasis-color:${ZC_CSS_AfterColon}${1:#C00};</string>
+	<string>text-emphasis-color:${ZC_CSS_AfterColon}#${1:C00};</string>
 	<key>name</key>
 	<string>text-emphasis-color</string>
 	<key>scope</key>

@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-moz-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})</string>
+	<string>/* $1
+---------------------------------------- */</string>
+	<key>keyEquivalent</key>
+	<string>~@/</string>
 	<key>name</key>
-	<string>-moz-radial-gradient +</string>
+	<string>Comment Block</string>
 	<key>scope</key>
 	<string>source.css</string>
-	<key>tabTrigger</key>
-	<string>rg:m+</string>
 	<key>uuid</key>
-	<string>94CA7F51-EE62-44B3-88C4-F67A8FF6E825</string>
+	<string>4D2A9A76-19E0-49D2-A039-0B3D77DCC20D</string>
 </dict>
 </plist>

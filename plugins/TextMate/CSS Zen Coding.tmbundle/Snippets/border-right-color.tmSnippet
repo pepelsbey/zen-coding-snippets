@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>border-right-color:${ZC_CSS_AfterColon}${1:#000};</string>
+	<string>border-right-color:${ZC_CSS_AfterColon}#${1:000};</string>
 	<key>name</key>
 	<string>border-right-color</string>
 	<key>scope</key>

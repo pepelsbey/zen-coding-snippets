@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background:${ZC_CSS_AfterColon}${1:#FFF} url($2) ${3:0} ${4:0} ${5:no-repeat};</string>
+	<string>background:${ZC_CSS_AfterColon}#${1:FFF} url($2) ${3:0} ${4:0} ${5:no-repeat};</string>
 	<key>name</key>
 	<string>background +</string>
 	<key>scope</key>

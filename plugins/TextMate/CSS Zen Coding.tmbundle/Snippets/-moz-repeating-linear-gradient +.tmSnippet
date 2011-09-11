@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-moz-repeating-linear-gradient(${1:top}, ${2:#000} ${3:0}, ${4:#FFF} ${5:25%})</string>
+	<string>-moz-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})</string>
 	<key>name</key>
 	<string>-moz-repeating-linear-gradient +</string>
 	<key>scope</key>
