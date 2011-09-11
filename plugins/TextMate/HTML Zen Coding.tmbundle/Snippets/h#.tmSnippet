@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;h{1:1}&gt;$2&lt;/h${1}&gt;</string>
+	<string>&lt;h${1:1}&gt;$2&lt;/h${1}&gt;</string>
 	<key>name</key>
 	<string>h#</string>
 	<key>scope</key>

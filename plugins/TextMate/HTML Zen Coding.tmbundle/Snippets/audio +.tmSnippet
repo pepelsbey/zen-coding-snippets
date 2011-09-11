@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>&lt;audio${1: controls}&gt;
-	&lt;source src="${2:video}.mp3" type="audio/mpeg"&gt;
+	&lt;source src="${2:audio}.mp3" type="audio/mpeg"&gt;
 	&lt;source src="$2.ogg" type="audio/ogg"&gt;
 &lt;/audio&gt;</string>
 	<key>name</key>
