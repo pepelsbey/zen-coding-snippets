@@ -63,11 +63,10 @@
 @font-face {
 	font-family:${1:FontFamily};
 	src:url(${2:font}.eot);
-	src:
-		url($2.eot?iefix) format('eot'),
+	src:url($2.eot?iefix) format('embedded-opentype'),
 		url($2.woff) format('woff'),
 		url($2.ttf) format('truetype'),
-		url($2.svg#$2) format('svg');
+		url($2.svg) format('svg');
 	}
 
 @k
@@ -973,31 +972,31 @@ background-image:none;
 
 bgi:lg
 background-image:-webkit-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%});
-background-image:-moz-linear-gradient($1, $2 $3, $4 $5);
-background-image:-ms-linear-gradient($1, $2 $3, $4 $5);
-background-image:-o-linear-gradient($1, $2 $3, $4 $5);
-background-image:linear-gradient($1, $2 $3, $4 $5);
+background-image:-moz-linear-gradient($1, #$2 $3, #$4 $5);
+background-image:-ms-linear-gradient($1, #$2 $3, #$4 $5);
+background-image:-o-linear-gradient($1, #$2 $3, #$4 $5);
+background-image:linear-gradient($1, #$2 $3, #$4 $5);
 
 bgi:rlg
 background-image:-webkit-repeating-linear-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%});
-background-image:-moz-repeating-linear-gradient($1, $2 $3, $4 $5);
-background-image:-ms-repeating-linear-gradient($1, $2 $3, $4 $5);
-background-image:-o-repeating-linear-gradient($1, $2 $3, $4 $5);
-background-image:repeating-linear-gradient($1, $2 $3, $4 $5);
+background-image:-moz-repeating-linear-gradient($1, #$2 $3, #$4 $5);
+background-image:-ms-repeating-linear-gradient($1, #$2 $3, #$4 $5);
+background-image:-o-repeating-linear-gradient($1, #$2 $3, #$4 $5);
+background-image:repeating-linear-gradient($1, #$2 $3, #$4 $5);
 
 bgi:rg
 background-image:-webkit-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%});
-background-image:-moz-radial-gradient($1, $2 $3, $4 $5);
-background-image:-ms-radial-gradient($1, $2 $3, $4 $5);
-background-image:-o-radial-gradient($1, $2 $3, $4 $5);
-background-image:radial-gradient($1, $2 $3, $4 $5);
+background-image:-moz-radial-gradient($1, #$2 $3, #$4 $5);
+background-image:-ms-radial-gradient($1, #$2 $3, #$4 $5);
+background-image:-o-radial-gradient($1, #$2 $3, #$4 $5);
+background-image:radial-gradient($1, #$2 $3, #$4 $5);
 
 bgi:rrg
 background-image:-webkit-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%});
-background-image:-moz-repeating-radial-gradient($1, $2 $3, $4 $5);
-background-image:-ms-repeating-radial-gradient($1, $2 $3, $4 $5);
-background-image:-o-repeating-radial-gradient($1, $2 $3, $4 $5);
-background-image:repeating-radial-gradient($1, $2 $3, $4 $5);
+background-image:-moz-repeating-radial-gradient($1, #$2 $3, #$4 $5);
+background-image:-ms-repeating-radial-gradient($1, #$2 $3, #$4 $5);
+background-image:-o-repeating-radial-gradient($1, #$2 $3, #$4 $5);
+background-image:repeating-radial-gradient($1, #$2 $3, #$4 $5);
 
 bgr
 background-repeat:$1;
@@ -1099,13 +1098,13 @@ box-shadow:$1;
 
 bsh+
 -webkit-box-shadow:${1:0} ${2:0} ${3:0} #${4:000};
--moz-box-shadow:$1 $2 $3 $4;
-box-shadow:$1 $2 $3 $4;
+-moz-box-shadow:$1 $2 $3 #$4;
+box-shadow:$1 $2 $3 #$4;
 
 bsh:i+
 -webkit-box-shadow:${1:0} ${2:0} ${3:0} #${4:000} ${5:inset};
--moz-box-shadow:$1 $2 $3 $4 $5;
-box-shadow:$1 $2 $3 $4 $5;
+-moz-box-shadow:$1 $2 $3 #$4 $5;
+box-shadow:$1 $2 $3 #$4 $5;
 
 bsh:n
 -webkit-box-shadow:none;
@@ -2415,13 +2414,13 @@ column-rule:$1;
 
 cor+
 -webkit-column-rule:${1:1px} ${2:solid} #${3:000};
--moz-column-rule:$1 $2 $3;
-column-rule:$1 $2 $3;
+-moz-column-rule:$1 $2 #$3;
+column-rule:$1 $2 #$3;
 
 corc
 -webkit-column-rule-color:#${1:000};
--moz-column-rule-color:$1;
-column-rule-color:$1;
+-moz-column-rule-color:#$1;
+column-rule-color:#$1;
 
 cors
 -webkit-column-rule-style:${1:solid};
