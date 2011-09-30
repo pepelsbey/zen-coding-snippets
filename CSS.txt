@@ -63,10 +63,11 @@
 @font-face {
 	font-family:${1:FontFamily};
 	src:url(${2:font}.eot);
-	src:url($2.eot?iefix) format('embedded-opentype'),
+	src:local($1),
+		url($2.eot?iefix) format('embedded-opentype'),
 		url($2.woff) format('woff'),
 		url($2.ttf) format('truetype'),
-		url($2.svg) format('svg');
+		url($2.svg#$1) format('svg');
 	}
 
 @k
