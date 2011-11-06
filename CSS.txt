@@ -75,24 +75,29 @@
 	$2
 	}
 
-@k:w
+@wk
 @-webkit-keyframes ${1:name} {
 	$2
 	}
 
-@k:m
+@mk
 @-moz-keyframes ${1:name} {
 	$2
 	}
 
-@k:ms
+@msk
 @-ms-keyframes ${1:name} {
 	$2
 	}
 
-@k:o
+@ok
 @-o-keyframes ${1:name} {
 	$2
+	}
+
+@r
+@region {
+	$1
 	}
 
 @p
@@ -105,7 +110,7 @@
 	$1
 	}
 
-@v:o
+@ov
 @-o-viewport {
 	$1
 	}
@@ -196,7 +201,7 @@
 :s
 ::selection
 
-:sm
+:ms
 ::-moz-selection
 
 ## Special  • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -403,10 +408,10 @@ overflow-y:scroll;
 ovy:a
 overflow-y:auto;
 
-ovx:ms
+msovx
 -ms-overflow-x:$1;
 
-ovy:ms
+msovy
 -ms-overflow-y:$1;
 
 cp
@@ -956,7 +961,7 @@ background:#${1:FFF} url($2) ${3:0} ${4:0} ${5:no-repeat};
 bg:n
 background:none;
 
-bg:ief
+iefbg
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$1', sizingMethod='${2:crop}');
 
 bgc
@@ -1038,13 +1043,13 @@ background-position:${1:0} ${2:0};
 bgpx
 background-position-x:$1;
 
-bgpx:ms
+msbgpx
 -ms-background-position-x:$1;
 
 bgpy
 background-position-y:$1;
 
-bgpy:ms
+msbgpy
 -ms-background-position-y:$1;
 
 bgcp
@@ -1118,34 +1123,34 @@ linear-gradient($1)
 lg+
 linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-lg:w
+wlg
 -webkit-linear-gradient($1)
 
-lg:w+
+wlg+
 -webkit-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-lg:m
+mlg
 -moz-linear-gradient($1)
 
-lg:m+
+mlg+
 -moz-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-lg:ms
+mslg
 -ms-linear-gradient($1)
 
-lg:ms+
+mslg+
 -ms-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-lg:o
+olg
 -o-linear-gradient($1)
 
-lg:o+
+olg+
 -o-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-lg:ief
+ieflg
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#${1:FF000000}, endColorstr=#${2:FFFFFFFF});
 
-lg:msf
+msflg
 -ms-filter:'progid:DXImageTransform.Microsoft.gradient(startColorstr=#${1:FF000000}, endColorstr=#${2:FFFFFFFF});
 
 rlg
@@ -1154,28 +1159,28 @@ repeating-linear-gradient($1)
 rlg+
 repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
-rlg:w
+wrlg
 -webkit-repeating-linear-gradient($1)
 
-rlg:w+
+wrlg+
 -webkit-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
-rlg:m
+mrlg
 -moz-repeating-linear-gradient($1)
 
-rlg:m+
+mrlg+
 -moz-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
-rlg:ms
+msrlg
 -ms-repeating-linear-gradient($1)
 
-rlg:ms+
+msrlg+
 -ms-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
-rlg:o
+orlg
 -o-repeating-linear-gradient($1)
 
-rlg:o+
+orlg+
 -o-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
 rg
@@ -1184,28 +1189,28 @@ radial-gradient($1)
 rg+
 radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-rg:w
+wrg
 -webkit-radial-gradient($1)
 
-rg:w+
+wrg+
 -webkit-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-rg:m
+mrg
 -moz-radial-gradient($1)
 
-rg:m+
+mrg+
 -moz-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-rg:ms
+msrg
 -ms-radial-gradient($1)
 
-rg:ms+
+msrg+
 -ms-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
-rg:o
+org
 -o-radial-gradient($1)
 
-rg:o+
+org+
 -o-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
 
 rrg
@@ -1214,28 +1219,28 @@ repeating-radial-gradient($1)
 rrg+
 repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
-rrg:w
+wrrg
 -webkit-repeating-radial-gradient($1)
 
-rrg:w+
+wrrg+
 -webkit-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
-rrg:m
+mrrg
 -moz-repeating-radial-gradient($1)
 
-rrg:m+
+mrrg+
 -moz-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
-rrg:ms
+msrrg
 -ms-repeating-radial-gradient($1)
 
-rrg:ms+
+msrrg+
 -ms-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
-rrg:o
+orrg
 -o-repeating-radial-gradient($1)
 
-rrg:o+
+orrg+
 -o-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
 
 c
@@ -1380,7 +1385,7 @@ counter-reset:$1;
 
 ## Text • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-wm:ms
+mswm
 -ms-writing-mode:$1;
 
 va
@@ -1434,7 +1439,7 @@ text-align:end;
 tal
 text-align-last:$1;
 
-tal:ms
+mstal
 -ms-text-align-last:$1;
 
 tal:a
@@ -1494,7 +1499,7 @@ text-indent:-9999px;
 tj
 text-justify:$1;
 
-tj:ms
+mstj
 -ms-text-justify:$1;
 
 tj:a
@@ -1572,7 +1577,7 @@ text-wrap:avoid;
 tov
 text-overflow:$1;
 
-tov:ms
+mstov
 -ms-text-overflow:$1;
 
 tove
@@ -1632,7 +1637,7 @@ word-spacing:normal;
 wow
 word-wrap:$1;
 
-wow:ms
+mswow
 -ms-word-wrap:$1;
 
 wow:n
@@ -1644,7 +1649,7 @@ word-wrap:break-word;
 wob
 word-break:$1;
 
-wob:ms
+mswob
 -ms-word-break:$1;
 
 ts
@@ -1809,19 +1814,19 @@ font-family:monospace;
 op
 opacity:$1;
 
-op:ief
+iefop
 filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100});
 
-op:msf
+msfop
 -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100})';
 
-im:ms
+msim
 -ms-interpolation-mode:$1;
 
-im:msb
+msim:b
 -ms-interpolation-mode:bicubic;
 
-im:msn
+msim:n
 -ms-interpolation-mode:nearest-neighbor;
 
 rz
@@ -2048,7 +2053,7 @@ trdu
 transition-duration:$1;
 
 trp
--webkit-transition-property:${1:1s};
+-webkit-transition-property:$1;
 -moz-transition-property:$1;
 -ms-transition-property:$1;
 -o-transition-property:$1;
@@ -2563,7 +2568,7 @@ widows:$1;
 zo
 zoom:$1;
 
-zo:ms
+mszo
 -ms-zoom:$1;
 
 zo:a
