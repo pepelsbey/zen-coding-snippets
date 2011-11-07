@@ -260,7 +260,7 @@ l:a
 left:auto;
 
 z
-z-index:$1;
+z-index:${1:1};
 
 z:a
 z-index:auto;
