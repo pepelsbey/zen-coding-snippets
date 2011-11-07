@@ -180,7 +180,7 @@
 :af
 :after
 
-:ln
+:la
 :lang($1)
 
 :nc
