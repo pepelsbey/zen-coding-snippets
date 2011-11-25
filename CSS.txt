@@ -1,26 +1,19 @@
 # Zen Coding snippets for CSS
 # Copyright © 2008–2011 Vadim Makeev, http://pepelsbey.net
 # Licensed under MIT license
-
-# Snippet
-
-> snippet
-> result
-
-# Groups
-
-- @rules
-- Pseudo
-- Special
-- Positioning
-- Block
-- Dimensions
-- Colors
-- Content
-- Text
-- Visual
-- Layout
-- Document
+# 
+# @rules
+# Pseudo
+# Special
+# Positioning
+# Block
+# Dimensions
+# Colors
+# Content
+# Text
+# Visual
+# Layout
+# Document
 
 ## @rules • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -786,7 +779,7 @@ bdrz:4
 -moz-border-radius:$1 $2 $3 $4;
 border-radius:$1 $2 $3 $4;
 
-> TODO: add old -moz-bdrz syntax
+# TODO: add old -moz-bdrz syntax
 
 bdtrrz
 -webkit-border-top-right-radius:${1:0};
@@ -1980,7 +1973,7 @@ tr
 -o-transition:$1;
 transition:$1;
 
-> TODO: add none value
+# TODO: add none value
 
 tr+
 -webkit-transition:${1:all} ${2:linear} ${3:1s};
@@ -2080,7 +2073,7 @@ tf
 -o-transform:$1;
 transform:$1;
 
-> TODO: add none value
+# TODO: add none value
 
 tf:mx
 -webkit-transform:matrix(${1:0}, ${2:0}, ${3:0}, ${4:0}, ${5:0}, ${6:0});
@@ -2229,8 +2222,8 @@ an
 -o-animation:$1;
 animation:$1;
 
-> TODO: add expanded syntax for an+
-> TODO: add none value
+# TODO: add expanded syntax for an+
+# TODO: add none value
 
 ann
 -webkit-animation-name:$1;
@@ -2416,7 +2409,7 @@ cor
 -moz-column-rule:$1;
 column-rule:$1;
 
-> TODO: add none value
+# TODO: add none value
 
 cor+
 -webkit-column-rule:${1:1px} ${2:solid} #${3:000};

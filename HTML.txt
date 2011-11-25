@@ -1,23 +1,16 @@
 # Zen Coding snippets for HTML
 # Copyright © 2008–2011 Vadim Makeev, http://pepelsbey.net
 # Licensed under MIT license
-
-# Snippet
-
-> snippet
-> result
-
-# Groups
-
-- Head
-- Sections
-- Grouping
-- Tables
-- Forms
-- Interactive
-- Edits
-- Embedded
-- Text
+# 
+# Head
+# Sections
+# Grouping
+# Tables
+# Forms
+# Interactive
+# Edits
+# Embedded
+# Text
 
 ## Head • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
