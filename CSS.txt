@@ -880,7 +880,7 @@ bgc:t
 background-color:transparent;
 
 bgi
-background-image:url($1);
+background-image:${1:url($2)};
 
 bgi:n
 background-image:none;
@@ -1242,7 +1242,7 @@ lst:ur
 list-style-type:upper-roman;
 
 lsi
-list-style-image:url($1);
+list-style-image:${1:url($2)};
 
 lsi:n
 list-style-image:none;
