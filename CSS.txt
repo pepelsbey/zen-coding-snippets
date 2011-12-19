@@ -119,16 +119,16 @@
 :lc
 :last-child
 
-:fot
+:ft
 :first-of-type
 
-:lot
+:lt
 :last-of-type
 
 :oc
 :only-child
 
-:oot
+:ot
 :only-of-type
 
 :em
@@ -182,10 +182,10 @@
 :nlc
 :nth-last-child($1)
 
-:not
+:nt
 :nth-of-type($1)
 
-:nlot
+:nlt
 :nth-last-of-type($1)
 
 :n
