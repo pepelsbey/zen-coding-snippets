@@ -18,7 +18,7 @@
 ## @rules • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 @c
-@charset 'utf-8';
+@charset '${1:utf-8}';
 
 @n
 @namespace '$1';
@@ -28,22 +28,22 @@
 
 @m
 @media {
-	$1
+	$0
 	}
 
 @m:a
 @media all and $1 {
-	$2
+	$0
 	}
 
 @m:s
 @media screen and $1 {
-	$2
+	$0
 	}
 
 @m:p
 @media print and $1 {
-	$2
+	$0
 	}
 
 @f
@@ -65,47 +65,47 @@
 
 @k
 @keyframes ${1:name} {
-	$2
+	$0
 	}
 
 @wk
 @-webkit-keyframes ${1:name} {
-	$2
+	$0
 	}
 
 @mk
 @-moz-keyframes ${1:name} {
-	$2
+	$0
 	}
 
 @msk
 @-ms-keyframes ${1:name} {
-	$2
+	$0
 	}
 
 @ok
 @-o-keyframes ${1:name} {
-	$2
+	$0
 	}
 
 @r
 @region {
-	$1
+	$0
 	}
 
 @p
 @page {
-	$1
+	$0
 	}
 
 @v
 @viewport {
-	$1
+	$0
 	}
 
 @ov
 @-o-viewport {
-	$1
+	$0
 	}
 
 ## Pseudo • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
