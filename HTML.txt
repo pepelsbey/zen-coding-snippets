@@ -217,7 +217,6 @@ hgroup
 </hgroup>
 
 address
-adr
 <address>
 	$1
 </address>
@@ -225,10 +224,6 @@ adr
 ## Grouping • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 p
-<p>$1</p>
-
-</p>
-</p>
 <p>$1</p>
 
 hr
@@ -245,7 +240,6 @@ pre+
 </pre>
 
 blockquote
-bq
 <blockquote>
 	$1
 </blockquote>
@@ -271,10 +265,6 @@ ul+
 </ul>
 
 li
-<li>$1</li>
-
-</li>
-</li>
 <li>$1</li>
 
 dl
@@ -310,7 +300,6 @@ figure+
 </figure>
 
 figcaption
-fcap
 <figcaption>$1</figcaption>
 
 div
@@ -353,31 +342,13 @@ tr
 	$1
 </tr>
 
-</tr>
-</tr>
-<tr>
-	$1
-</tr>
-
 th
-<th>$1</th>
-
-</th>
-</th>
 <th>$1</th>
 
 td
 <td>$1</td>
 
-</td>
-</td>
-<td>$1</td>
-
 col
-<col>
-
-<col>
-<col>
 <col>
 
 colgroup
@@ -398,7 +369,6 @@ form
 </form>
 
 fieldset
-fset
 <fieldset>
 	$1
 </fieldset>
@@ -434,11 +404,9 @@ input:date
 <input type="date" name="$1" value="$2">
 
 input:datetime
-input:datet
 <input type="datetime" name="$1" value="$2">
 
 input:datetime-local
-input:datetl
 <input type="datetime-local" name="$1" value="$2">
 
 input:month
@@ -494,13 +462,11 @@ select+
 </select>
 
 datalist
-dlist
 <datalist>
 	$1
 </datalist>
 
 datalist+
-dlist+
 <datalist>
 	<option label="$1" value="$2">
 </datalist>
@@ -511,10 +477,9 @@ optgroup
 </optgroup>
 
 option
-<option name="$1">$1</option>
+<option name="$1">$2</option>
 
 textarea
-tarea
 <textarea name="$1" cols="${2:20}" rows="${3:10}">$4</textarea>
 
 keygen
