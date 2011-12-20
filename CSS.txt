@@ -1026,6 +1026,9 @@ bsh:n
 -moz-box-shadow:none;
 box-shadow:none;
 
+c
+color:#${1:000};
+
 lg
 linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
@@ -1091,9 +1094,6 @@ msrrg
 
 orrg
 -o-repeating-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
-
-c
-color:#${1:000};
 
 rgb
 rgb(${1:0}, ${2:0}, ${3:0})
