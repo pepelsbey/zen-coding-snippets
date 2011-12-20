@@ -1027,34 +1027,19 @@ bsh:n
 box-shadow:none;
 
 lg
-linear-gradient($1)
-
-lg+
-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 wlg
--webkit-linear-gradient($1)
-
-wlg+
--webkit-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+-webkit-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 mlg
--moz-linear-gradient($1)
-
-mlg+
--moz-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+-moz-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 mslg
--ms-linear-gradient($1)
-
-mslg+
--ms-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+-ms-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 olg
--o-linear-gradient($1)
-
-olg+
--o-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+-o-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 ieflg
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#${1:FF000000}, endColorstr=#${2:FFFFFFFF});
@@ -1063,94 +1048,49 @@ msflg
 -ms-filter:'progid:DXImageTransform.Microsoft.gradient(startColorstr=#${1:FF000000}, endColorstr=#${2:FFFFFFFF});
 
 rlg
-repeating-linear-gradient($1)
-
-rlg+
-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+repeating-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 wrlg
--webkit-repeating-linear-gradient($1)
-
-wrlg+
--webkit-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+-webkit-repeating-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 mrlg
--moz-repeating-linear-gradient($1)
-
-mrlg+
--moz-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+-moz-repeating-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 msrlg
--ms-repeating-linear-gradient($1)
-
-msrlg+
--ms-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+-ms-repeating-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 orlg
--o-repeating-linear-gradient($1)
-
-orlg+
--o-repeating-linear-gradient(${1:top}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+-o-repeating-linear-gradient(${1:${2:top}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 rg
-radial-gradient($1)
-
-rg+
-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 wrg
--webkit-radial-gradient($1)
-
-wrg+
--webkit-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+-webkit-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 mrg
--moz-radial-gradient($1)
-
-mrg+
--moz-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+-moz-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 msrg
--ms-radial-gradient($1)
-
-msrg+
--ms-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+-ms-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 org
--o-radial-gradient($1)
-
-org+
--o-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:100%})
+-o-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:100%}})
 
 rrg
-repeating-radial-gradient($1)
-
-rrg+
-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+repeating-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 wrrg
--webkit-repeating-radial-gradient($1)
-
-wrrg+
--webkit-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+-webkit-repeating-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 mrrg
--moz-repeating-radial-gradient($1)
-
-mrrg+
--moz-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+-moz-repeating-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 msrrg
--ms-repeating-radial-gradient($1)
-
-msrrg+
--ms-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+-ms-repeating-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 orrg
--o-repeating-radial-gradient($1)
-
-orrg+
--o-repeating-radial-gradient(${1:center}, #${2:000} ${3:0}, #${4:FFF} ${5:25%})
+-o-repeating-radial-gradient(${1:${2:center}, #${3:000} ${4:0}, #${5:FFF} ${6:25%}})
 
 c
 color:#${1:000};
