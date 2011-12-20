@@ -481,15 +481,6 @@ margin:${1:0};
 m:a
 margin:auto;
 
-m:2
-margin:${1:0} ${2:0};
-
-m:3
-margin:${1:0} ${2:0} ${3:0};
-
-m:4
-margin:${1:0} ${2:0} ${3:0} ${4:0};
-
 mt
 margin-top:${1:0};
 
@@ -516,15 +507,6 @@ margin-left:auto;
 
 p
 padding:${1:0};
-
-p:2
-padding:${1:0} ${2:0};
-
-p:3
-padding:${1:0} ${2:0} ${3:0};
-
-p:4
-padding:${1:0} ${2:0} ${3:0} ${4:0};
 
 pt
 padding-top:${1:0};
