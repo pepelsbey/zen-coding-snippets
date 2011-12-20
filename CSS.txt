@@ -2250,7 +2250,10 @@ cor
 -moz-column-rule:$1;
 column-rule:$1;
 
-# TODO: add none value
+cor:n
+-webkit-column-rule:none;
+-moz-column-rule:none;
+column-rule:none;
 
 cor+
 -webkit-column-rule:${1:1px} ${2:solid} #${3:000};
