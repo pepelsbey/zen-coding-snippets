@@ -24,34 +24,10 @@ html
 
 html5
 <!DOCTYPE html>
-<html>
+<html lang="${1:en}">
 <head>
-	<title>$1</title>
+	<title>$2</title>
 	<meta charset="UTF-8">
-</head>
-<body>
-	$0
-</body>
-</html>
-
-html5:en
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<title>$1</title>
-	<meta charset="utf-8">
-</head>
-<body>
-	$0
-</body>
-</html>
-
-html5:ru
-<!DOCTYPE html>
-<html lang="ru-RU">
-<head>
-	<title>$1</title>
-	<meta charset="utf-8">
 </head>
 <body>
 	$0
