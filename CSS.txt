@@ -1016,7 +1016,7 @@ bsh+
 -moz-box-shadow:$1 $2 $3 #$4;
 box-shadow:$1 $2 $3 #$4;
 
-bsh:i+
+bsh:i
 -webkit-box-shadow:${1:0} ${2:0} ${3:0} #${4:000} ${5:inset};
 -moz-box-shadow:$1 $2 $3 #$4 $5;
 box-shadow:$1 $2 $3 #$4 $5;
