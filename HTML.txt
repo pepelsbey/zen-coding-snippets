@@ -34,6 +34,21 @@ html5
 </body>
 </html>
 
+h5bp
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="${1:en}"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="$1"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="$1"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="$1"><!--<![endif]-->
+<head>
+	<title>$2</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	$0
+</body>
+</html>
+
 head
 <head>
 	$1
