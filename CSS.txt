@@ -1211,10 +1211,10 @@ content:counters($1);
 ct:i
 content:icon;
 
-coi
+ci
 counter-increment:$1;
 
-cor
+cr
 counter-reset:$1;
 
 ## Text • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
