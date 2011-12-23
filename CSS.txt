@@ -202,9 +202,6 @@
 e
 expression($1)
 
-fi
-filter:$1;
-
 ## Positioning  • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 pos
@@ -1663,6 +1660,12 @@ msim:b
 msim:n
 -ms-interpolation-mode:nearest-neighbor;
 
+fi
+filter:$1;
+
+wfi
+-webkit-filter:$1;
+
 rz
 resize:$1;
 
@@ -2107,6 +2110,8 @@ anps:p
 -ms-animation-play-state:paused;
 -o-animation-play-state:paused;
 animation-play-state:paused;
+
+# TODO: add timing function values
 
 antf
 -webkit-animation-timing-function:$1;
