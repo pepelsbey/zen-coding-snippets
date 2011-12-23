@@ -4,7 +4,6 @@
 # 
 # @rules
 # Pseudo
-# Special
 # Positioning
 # Block
 # Dimensions
@@ -14,6 +13,7 @@
 # Visual
 # Layout
 # Document
+# Special
 
 ## @rules • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -196,11 +196,6 @@
 
 :ms
 ::-moz-selection
-
-## Special  • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-
-e
-expression($1)
 
 ## Positioning  • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -2448,3 +2443,8 @@ orientation:portrait;
 
 or:l
 orientation:landscape;
+
+## Special  • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+e
+expression($1)
