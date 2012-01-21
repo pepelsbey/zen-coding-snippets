@@ -394,13 +394,10 @@ msovy
 -ms-overflow-y:$1;
 
 cp
-clip:$1;
+clip:rect(${1:0}, ${2:0}, ${3:0}, ${4:0});
 
 cp:a
 clip:auto;
-
-cp:r
-clip:rect(${1:0} ${2:0} ${3:0} ${4:0});
 
 bs
 box-sizing:$1;
