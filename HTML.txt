@@ -51,7 +51,7 @@ h5bp
 
 head
 <head>
-	$1
+	$0
 </head>
 
 title
@@ -107,12 +107,12 @@ meta:view
 
 style
 <style>
-	$1
+	$0
 </style>
 
 script
 <script>
-	$1
+	$0
 </script>
 
 script:src
@@ -129,74 +129,74 @@ script:jqy
 
 noscript
 <noscript>
-	$1
+	$0
 </noscript>
 
 cc:ie
 <!--[if IE]>
-	$1
+	$0
 <![endif]-->
 
 cc:lt
 <!--[if lt IE ${1:6}]>
-	$2
+	$0
 <![endif]-->
 
 cc:lte
 <!--[if lte IE ${1:6}]>
-	$2
+	$0
 <![endif]-->
 
 cc:gt
 <!--[if gt IE ${1:6}]>
-	$2
+	$0
 <![endif]-->
 
 cc:gte
 <!--[if gte IE ${1:6}]>
-	$2
+	$0
 <![endif]-->
 
 cc:noie
 <!--[if !IE]><!-->
-	$1
+	$0
 <!--<![endif]-->
 
 ## Sections • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 body
 <body>
-	$1
+	$0
 </body>
 
 article
 <article>
-	$1
+	$0
 </article>
 
 nav
 <nav>
-	$1
+	$0
 </nav>
 
 aside
 <aside>
-	$1
+	$0
 </aside>
 
 section
 <section>
-	$1
+	$0
 </section>
 
 header
 <header>
-	$1
+	$0
 </header>
 
 footer
 <footer>
-	$1
+	$0
 </footer>
 
 h
@@ -222,12 +222,12 @@ h6
 
 hgroup
 <hgroup>
-	$1
+	$0
 </hgroup>
 
 address
 <address>
-	$1
+	$0
 </address>
 
 ## Grouping • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -240,7 +240,7 @@ hr
 
 pre
 <pre>
-	$1
+	$0
 </pre>
 
 pre+
@@ -250,27 +250,27 @@ pre+
 
 blockquote
 <blockquote>
-	$1
+	$0
 </blockquote>
 
 ol
 <ol>
-	$1
+	$0
 </ol>
 
 ol+
 <ol>
-	<li>$1</li>
+	<li>$1</li>$0
 </ol>
 
 ul
 <ul>
-	$1
+	$0
 </ul>
 
 ul+
 <ul>
-	<li>$1</li>
+	<li>$1</li>$0
 </ul>
 
 li
@@ -278,34 +278,30 @@ li
 
 dl
 <dl>
-	$1
+	$0
 </dl>
 
 dl+
 <dl>
 	<dt>$1</dt>
-	<dd>
-		$2
-	</dd>
+	<dd>$2</dd>
 </dl>
 
 dt
 <dt>$1</dt>
 
 dd
-<dd>
-	$1
-</dd>
+<dd>$1</dd>
 
 figure
 <figure>
-	$1
+	$0
 </figure>
 
 figure+
 <figure>
 	<figcaption>$1</figcaption>
-	$2
+	$0
 </figure>
 
 figcaption
@@ -318,13 +314,13 @@ div
 
 table
 <table>
-	$1
+	$0
 </table>
 
 table+
 <table>
 <tr>
-	<td>$1</td>
+	<td>$1</td>$0
 </tr>
 </table>
 
@@ -333,22 +329,22 @@ caption
 
 thead
 <thead>
-	$1
+	$0
 </thead>
 
 tbody
 <tbody>
-	$1
+	$0
 </tbody>
 
 tfoot
 <tfoot>
-	$1
+	$0
 </tfoot>
 
 tr
 <tr>
-	$1
+	$0
 </tr>
 
 th
@@ -362,24 +358,24 @@ col
 
 colgroup
 <colgroup>
-	$1
+	$0
 </colgroup>
 
 colgroup+
 <colgroup>
-	<col>$1
+	<col>$0
 </colgroup>
 
 ## Forms  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 form
 <form action="$1">
-	$2
+	$0
 </form>
 
 fieldset
 <fieldset>
-	$1
+	$0
 </fieldset>
 
 legend
@@ -462,27 +458,27 @@ button
 
 select
 <select>
-	$1
+	$0
 </select>
 
 select+
 <select>
-	<option name="$1">$2</option>
+	<option name="$1">$2</option>$0
 </select>
 
 datalist
 <datalist>
-	$1
+	$0
 </datalist>
 
 datalist+
 <datalist>
-	<option label="$1" value="$2">
+	<option label="$1" value="$2">$0
 </datalist>
 
 optgroup
 <optgroup>
-	$1
+	$0
 </optgroup>
 
 option
@@ -507,13 +503,13 @@ meter
 
 details
 <details>
-	$1
+	$0
 </details>
 
 details+
 <details>
 	<summary>$1</summary>
-	$2
+	$0
 </details>
 
 summary
@@ -521,7 +517,7 @@ summary
 
 menu
 <menu type="$1">
-	$2
+	$0
 </menu>
 
 command
@@ -548,7 +544,7 @@ embed
 
 object
 <object data="$1" type="$2">
-	$3
+	$0
 </object>
 
 param
@@ -584,7 +580,7 @@ canvas
 
 map
 <map name="$1">
-	$2
+	$0
 </map>
 
 map+
