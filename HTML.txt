@@ -24,9 +24,9 @@ html
 
 html5
 <!DOCTYPE html>
-<html lang="${1:en}">
+<html>
 <head>
-	<title>$2</title>
+	<title>$1</title>
 	<meta charset="UTF-8">
 </head>
 <body>
@@ -36,12 +36,12 @@ html5
 
 h5bp
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="${1:en}"><![endif]-->
-<!--[if IE 7]><html class="no-js ie7 oldie" lang="$1"><![endif]-->
-<!--[if IE 8]><html class="no-js ie8 oldie" lang="$1"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="$1"><!--<![endif]-->
+<!--[if lt IE 7]><html class="no-js ie6 oldie"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
 <head>
-	<title>$2</title>
+	<title>$1</title>
 	<meta charset="utf-8">
 </head>
 <body>
