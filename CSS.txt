@@ -1,5 +1,5 @@
 # Zen Coding snippets for CSS
-# Copyright © 2008–2011 Vadim Makeev, http://pepelsbey.net
+# Copyright © 2008–2012 Vadim Makeev, http://pepelsbey.net
 # Licensed under MIT license
 # 
 # @rules
@@ -719,8 +719,6 @@ bdrz
 -webkit-border-radius:${1:0};
 -moz-border-radius:$1;
 border-radius:$1;
-
-# TODO: add old -moz-bdrz syntax
 
 bdtrrz
 -webkit-border-top-right-radius:${1:0};
@@ -1809,14 +1807,19 @@ tr
 -o-transition:$1;
 transition:$1;
 
-# TODO: add none value
-
 tr+
 -webkit-transition:${1:all} ${2:linear} ${3:1s};
 -moz-transition:$1 $2 $3;
 -ms-transition:$1 $2 $3;
 -o-transition:$1 $2 $3;
 transition:$1 $2 $3;
+
+tr:n
+-webkit-transition:none;
+-moz-transition:none;
+-ms-transition:none;
+-o-transition:none;
+transition:none;
 
 trde
 -webkit-transition-delay:${1:1s};
@@ -1909,7 +1912,12 @@ tf
 -o-transform:$1;
 transform:$1;
 
-# TODO: add none value
+tf:n
+-webkit-transform:none;
+-moz-transform:none;
+-ms-transform:none;
+-o-transform:none;
+transform:none;
 
 tf:mx
 -webkit-transform:matrix(${1:0}, ${2:0}, ${3:0}, ${4:0}, ${5:0}, ${6:0});
@@ -2058,8 +2066,19 @@ an
 -o-animation:$1;
 animation:$1;
 
-# TODO: add expanded syntax for an+
-# TODO: add none value
+an+
+-webkit-animation:${1:name} ${2:1s} ${3:infinite};
+-moz-animation:$1 $2 $3;
+-ms-animation:$1 $2 $3;
+-o-animation:$1 $2 $3;
+animation:$1 $2 $3;
+
+an:n
+-webkit-animation:none;
+-moz-animation:none;
+-ms-animation:none;
+-o-animation:none;
+animation:none;
 
 ann
 -webkit-animation-name:$1;
@@ -2103,14 +2122,75 @@ anps:p
 -o-animation-play-state:paused;
 animation-play-state:paused;
 
-# TODO: add timing function values
-
 antf
 -webkit-animation-timing-function:$1;
 -moz-animation-timing-function:$1;
 -ms-animation-timing-function:$1;
 -o-animation-timing-function:$1;
 animation-timing-function:$1;
+
+antf:e
+-webkit-animation-timing-function:ease;
+-moz-animation-timing-function:ease;
+-ms-animation-timing-function:ease;
+-o-animation-timing-function:ease;
+animation-timing-function:ease;
+
+antf:l
+-webkit-animation-timing-function:linear;
+-moz-animation-timing-function:linear;
+-ms-animation-timing-function:linear;
+-o-animation-timing-function:linear;
+animation-timing-function:linear;
+
+antf:ei
+-webkit-animation-timing-function:ease-in;
+-moz-animation-timing-function:ease-in;
+-ms-animation-timing-function:ease-in;
+-o-animation-timing-function:ease-in;
+animation-timing-function:ease-in;
+
+antf:eo
+-webkit-animation-timing-function:ease-out;
+-moz-animation-timing-function:ease-out;
+-ms-animation-timing-function:ease-out;
+-o-animation-timing-function:ease-out;
+animation-timing-function:ease-out;
+
+antf:eio
+-webkit-animation-timing-function:ease-in-out;
+-moz-animation-timing-function:ease-in-out;
+-ms-animation-timing-function:ease-in-out;
+-o-animation-timing-function:ease-in-out;
+animation-timing-function:ease-in-out;
+
+antf:cb
+-webkit-animation-timing-function:cubic-bezier(${1:0}, ${2:0}, ${3:0}, ${4:0});
+-moz-animation-timing-function:cubic-bezier($1, $2, $3, $4);
+-ms-animation-timing-function:cubic-bezier($1, $2, $3, $4);
+-o-animation-timing-function:cubic-bezier($1, $2, $3, $4);
+animation-timing-function:cubic-bezier($1, $2, $3, $4);
+
+antf:ss
+-webkit-animation-timing-function:step-start;
+-moz-animation-timing-function:step-start;
+-ms-animation-timing-function:step-start;
+-o-animation-timing-function:step-start;
+animation-timing-function:step-start;
+
+antf:se
+-webkit-animation-timing-function:step-end;
+-moz-animation-timing-function:step-end;
+-ms-animation-timing-function:step-end;
+-o-animation-timing-function:step-end;
+animation-timing-function:step-end;
+
+antf:s
+-webkit-animation-timing-function:steps($1);
+-moz-animation-timing-function:steps($1);
+-ms-animation-timing-function:steps($1);
+-o-animation-timing-function:steps($1);
+animation-timing-function:steps($1);
 
 ande
 -webkit-animation-delay:${1:1s};
