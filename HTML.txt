@@ -69,10 +69,10 @@ link:css
 link:ico
 <link rel="icon" sizes="${1:16x16}" href="${2:favicon.ico}">
 
-link:touch
+link:ati
 <link rel="apple-touch-icon" href="favicon.png">
 
-link:touch-pre
+link:atip
 <link rel="apple-touch-icon-precomposed" href="favicon.png">
 
 link:rss
