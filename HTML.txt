@@ -576,7 +576,7 @@ track
 <track src="$1" label="$4">
 
 canvas
-<canvas id="${1:canvas}" width="${2:640}" height="${3:480}">$4</canvas>
+<canvas id="${1:canvas}" width="${2:640}" height="${3:480}"></canvas>
 
 map
 <map name="$1">
@@ -597,10 +597,10 @@ a
 <a href="$1">$2</a>
 
 a:link
-<a href="${1:http://}">$3</a>
+<a href="${1:http://}">$2</a>
 
 a:mail
-<a href="mailto:$1">$2</a>
+<a href="${1:mailto:}">$2</a>
 
 em
 <em>$1</em>
