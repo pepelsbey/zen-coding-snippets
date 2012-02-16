@@ -583,7 +583,7 @@ a
 <a href="$1">$2</a>
 
 a:link
-<a href="http://$1">$2</a>
+<a href="${1:http://}">$3</a>
 
 a:mail
 <a href="mailto:$1">$2</a>
