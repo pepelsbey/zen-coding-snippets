@@ -1,5 +1,5 @@
 # Zen Coding snippets for HTML
-# Copyright © 2008–2011 Vadim Makeev, http://pepelsbey.net
+# Copyright © 2008–2012 Vadim Makeev, http://pepelsbey.net
 # Licensed under MIT license
 # 
 # Head
