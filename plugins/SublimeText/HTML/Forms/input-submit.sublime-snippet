@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>input:submit</tabTrigger>
+	<content><![CDATA[<input type="submit" value="$1">]]></content>
+	<scope>text.html</scope>
+</snippet>

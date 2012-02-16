@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>input:time</tabTrigger>
+	<content><![CDATA[<input type="time" name="$1" value="$2">]]></content>
+	<scope>text.html</scope>
+</snippet>

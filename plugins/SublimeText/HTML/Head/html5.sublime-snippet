@@ -1,0 +1,14 @@
+<snippet>
+	<tabTrigger>html5</tabTrigger>
+	<content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+	<title>$1</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	$0
+</body>
+</html>]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>hgroup</tabTrigger>
+	<content><![CDATA[<hgroup>
+	$0
+</hgroup>]]></content>
+	<scope>text.html</scope>
+</snippet>

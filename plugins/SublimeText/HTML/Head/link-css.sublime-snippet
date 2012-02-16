@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>link:css</tabTrigger>
+	<content><![CDATA[<link rel="stylesheet" href="${1:screen.css}">]]></content>
+	<scope>text.html</scope>
+</snippet>

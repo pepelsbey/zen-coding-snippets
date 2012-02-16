@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>audio+</tabTrigger>
+	<content><![CDATA[<audio${1: controls}>
+	<source src="${2:audio}.mp3" type="audio/mpeg">
+	<source src="$2.ogg" type="audio/ogg">
+</audio>]]></content>
+	<scope>text.html</scope>
+</snippet>

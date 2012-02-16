@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>input:month</tabTrigger>
+	<content><![CDATA[<input type="month" name="$1" value="$2">]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>ins</tabTrigger>
+	<content><![CDATA[<ins${1: datetime="$2"}>$3</ins>]]></content>
+	<scope>text.html</scope>
+</snippet>

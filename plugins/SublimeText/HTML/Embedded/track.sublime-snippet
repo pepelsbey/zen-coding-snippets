@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>track</tabTrigger>
+	<content><![CDATA[<track src="$1" label="$4">]]></content>
+	<scope>text.html</scope>
+</snippet>

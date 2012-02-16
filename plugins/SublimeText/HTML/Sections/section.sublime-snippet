@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>section</tabTrigger>
+	<content><![CDATA[<section>
+	$0
+</section>]]></content>
+	<scope>text.html</scope>
+</snippet>

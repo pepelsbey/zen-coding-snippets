@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>meta:comp</tabTrigger>
+	<content><![CDATA[<meta http-equiv="x-ua-compatible" content="${1:ie=edge}">]]></content>
+	<scope>text.html</scope>
+</snippet>

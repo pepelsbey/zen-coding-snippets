@@ -1,0 +1,17 @@
+<snippet>
+	<tabTrigger>h5bp</tabTrigger>
+	<content><![CDATA[<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie6 oldie"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+	<title>$1</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	$0
+</body>
+</html>]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>keygen</tabTrigger>
+	<content><![CDATA[<keygen name="$1">]]></content>
+	<scope>text.html</scope>
+</snippet>

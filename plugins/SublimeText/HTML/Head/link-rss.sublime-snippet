@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>link:rss</tabTrigger>
+	<content><![CDATA[<link rel="alternate" type="application/rss+xml" title="${1:RSS}" href="${2:rss}">]]></content>
+	<scope>text.html</scope>
+</snippet>

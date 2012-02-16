@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>figure</tabTrigger>
+	<content><![CDATA[<figure>
+	$0
+</figure>]]></content>
+	<scope>text.html</scope>
+</snippet>

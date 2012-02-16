@@ -1,0 +1,9 @@
+<snippet>
+	<tabTrigger>video+</tabTrigger>
+	<content><![CDATA[<video width="${1:640}" height="${2:480}"${3: controls}>
+	<source src="${4:video}.mp4" type="video/mp4">
+	<source src="$4.webm" type="video/webm">
+	<source src="$4.ogv" type="video/ogg">
+</video>]]></content>
+	<scope>text.html</scope>
+</snippet>

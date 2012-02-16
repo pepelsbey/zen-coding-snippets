@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>meta:key</tabTrigger>
+	<content><![CDATA[<meta name="keywords" content="$1">]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>input:image</tabTrigger>
+	<content><![CDATA[<input type="image" src="$1" alt="$2">]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>video</tabTrigger>
+	<content><![CDATA[<video${1: src="$2"}${3: controls}>$4</video>]]></content>
+	<scope>text.html</scope>
+</snippet>

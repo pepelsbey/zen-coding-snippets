@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>cc:lt</tabTrigger>
+	<content><![CDATA[<!--[if lt IE ${1:6}]>
+	$0
+<![endif]-->]]></content>
+	<scope>text.html</scope>
+</snippet>

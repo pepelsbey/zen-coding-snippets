@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>area</tabTrigger>
+	<content><![CDATA[<area href="$1" shape="$2" coords="$3" alt="$4">]]></content>
+	<scope>text.html</scope>
+</snippet>

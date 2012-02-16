@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>link:ico</tabTrigger>
+	<content><![CDATA[<link rel="icon" sizes="${1:16x16}" href="${2:favicon.ico}">]]></content>
+	<scope>text.html</scope>
+</snippet>

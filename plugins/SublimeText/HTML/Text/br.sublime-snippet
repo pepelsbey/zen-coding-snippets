@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>br</tabTrigger>
+	<content><![CDATA[<br>]]></content>
+	<scope>text.html</scope>
+</snippet>

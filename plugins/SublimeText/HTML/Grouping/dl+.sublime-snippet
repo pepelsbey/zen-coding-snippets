@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>dl+</tabTrigger>
+	<content><![CDATA[<dl>
+	<dt>$1</dt>
+	<dd>$2</dd>
+</dl>]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>a:link</tabTrigger>
+	<content><![CDATA[<a href="${1:http://}">$2</a>]]></content>
+	<scope>text.html</scope>
+</snippet>

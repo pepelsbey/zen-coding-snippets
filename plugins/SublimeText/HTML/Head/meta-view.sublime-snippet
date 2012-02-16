@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>meta:view</tabTrigger>
+	<content><![CDATA[<meta name="viewport" content="${1:width=device-width}">]]></content>
+	<scope>text.html</scope>
+</snippet>

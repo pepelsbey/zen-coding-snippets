@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>textarea</tabTrigger>
+	<content><![CDATA[<textarea name="$1" cols="${2:20}" rows="${3:10}">$4</textarea>]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>option</tabTrigger>
+	<content><![CDATA[<option name="$1">$2</option>]]></content>
+	<scope>text.html</scope>
+</snippet>

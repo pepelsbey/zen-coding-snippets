@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>link:atip</tabTrigger>
+	<content><![CDATA[<link rel="apple-touch-icon-precomposed" href="favicon.png">]]></content>
+	<scope>text.html</scope>
+</snippet>

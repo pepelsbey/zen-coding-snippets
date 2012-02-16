@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>input:datetime-local</tabTrigger>
+	<content><![CDATA[<input type="datetime-local" name="$1" value="$2">]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>del</tabTrigger>
+	<content><![CDATA[<del${1: datetime="$2"}>$3</del>]]></content>
+	<scope>text.html</scope>
+</snippet>

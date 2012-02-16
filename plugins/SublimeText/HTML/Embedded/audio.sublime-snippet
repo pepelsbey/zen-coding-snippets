@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>audio</tabTrigger>
+	<content><![CDATA[<audio${1: src="$2"}${3: controls}>$4</audio>]]></content>
+	<scope>text.html</scope>
+</snippet>

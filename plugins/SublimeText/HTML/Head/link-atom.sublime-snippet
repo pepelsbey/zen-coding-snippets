@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>link:atom</tabTrigger>
+	<content><![CDATA[<link rel="alternate" type="application/atom+xml" title="${1:Atom}" href="${2:atom}">]]></content>
+	<scope>text.html</scope>
+</snippet>

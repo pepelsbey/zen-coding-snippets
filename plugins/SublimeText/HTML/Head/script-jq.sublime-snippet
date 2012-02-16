@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>script:jq</tabTrigger>
+	<content><![CDATA[<script src="//code.jquery.com/jquery-${1:latest}.min.js"></script>]]></content>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>dfn</tabTrigger>
+	<content><![CDATA[<dfn>$1</dfn>]]></content>
+	<scope>text.html</scope>
+</snippet>

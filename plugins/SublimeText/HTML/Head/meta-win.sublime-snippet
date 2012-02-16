@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>meta:win</tabTrigger>
+	<content><![CDATA[<meta charset="win-1251">]]></content>
+	<scope>text.html</scope>
+</snippet>

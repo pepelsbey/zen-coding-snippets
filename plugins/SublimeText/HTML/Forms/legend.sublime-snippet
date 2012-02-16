@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>legend</tabTrigger>
+	<content><![CDATA[<legend>$1</legend>]]></content>
+	<scope>text.html</scope>
+</snippet>

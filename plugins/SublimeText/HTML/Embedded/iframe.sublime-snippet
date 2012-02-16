@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>iframe</tabTrigger>
+	<content><![CDATA[<iframe src="$1" height="$2" width="$3"></iframe>]]></content>
+	<scope>text.html</scope>
+</snippet>

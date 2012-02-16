@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>progress</tabTrigger>
+	<content><![CDATA[<progress name="$1" value="$2">]]></content>
+	<scope>text.html</scope>
+</snippet>

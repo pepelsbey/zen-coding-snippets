@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>input:file</tabTrigger>
+	<content><![CDATA[<input type="file" name="$1" value="$2"${3: multiple}>]]></content>
+	<scope>text.html</scope>
+</snippet>

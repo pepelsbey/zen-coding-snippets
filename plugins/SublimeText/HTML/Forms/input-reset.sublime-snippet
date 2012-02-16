@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>input:reset</tabTrigger>
+	<content><![CDATA[<input type="reset" value="$1">]]></content>
+	<scope>text.html</scope>
+</snippet>
