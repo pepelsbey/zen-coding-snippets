@@ -1,21 +1,22 @@
 # Zen Coding snippets for CSS
-# Copyright © 2008–2012 Vadim Makeev, http://pepelsbey.net
-# Licensed under MIT license
-# 
-# @rules
-# Pseudo
-# Positioning
-# Block
-# Dimensions
-# Colors
-# Content
-# Text
-# Visual
-# Layout
-# Document
-# Special
 
-## @rules • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+Copyright © 2008–2012 Vadim Makeev, http://pepelsbey.net
+Licensed under MIT license
+
+- @rules
+- Pseudo
+- Positioning
+- Block
+- Dimensions
+- Colors
+- Content
+- Text
+- Visual
+- Layout
+- Document
+- Special
+
+## @rules
 
 @c
 @charset '${1:utf-8}';
@@ -108,7 +109,7 @@
 	$0
 	}
 
-## Pseudo • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Pseudo
 
 :r
 :root
@@ -197,7 +198,7 @@
 :ms
 ::-moz-selection
 
-## Positioning  • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Positioning
 
 pos
 position:$1;
@@ -244,7 +245,7 @@ z-index:${1:1};
 z:a
 z-index:auto;
 
-## Block  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Block
 
 fl
 float:$1;
@@ -462,7 +463,7 @@ flex-align:auto;
 fxa:b
 flex-align:baseline;
 
-## Dimensions • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Dimensions
 
 m
 margin:${1:0};
@@ -545,7 +546,7 @@ height:auto;
 h:dh
 height:device-height;
 
-## Colors • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Colors
 
 o
 outline:$1;
@@ -1079,7 +1080,7 @@ hsla(${1:0}, ${2:0}, ${3:0}, ${4:1})
 u
 url($1)
 
-## Content  • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Content
 
 tl
 table-layout:$1;
@@ -1204,7 +1205,7 @@ counter-increment:$1;
 cr
 counter-reset:$1;
 
-## Text • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Text
 
 mswm
 -ms-writing-mode:$1;
@@ -1630,7 +1631,7 @@ font-family:fantasy;
 ff:m
 font-family:monospace;
 
-## Visual • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Visual
 
 op
 opacity:$1;
@@ -2234,7 +2235,7 @@ andi:a
 -o-animation-direction:alternate;
 animation-direction:alternate;
 
-## Layout • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Layout
 
 ub
 unicode-bidi:$1;
@@ -2477,7 +2478,7 @@ orphans:$1;
 wid
 widows:$1;
 
-## Document • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Document
 
 zo
 zoom:$1;
@@ -2521,7 +2522,7 @@ orientation:portrait;
 or:l
 orientation:landscape;
 
-## Special  • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Special
 
 e
 expression($1)

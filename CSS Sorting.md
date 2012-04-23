@@ -1,18 +1,19 @@
 # List of all CSS proprties for Zen Coding project
-# Copyright © 2008–2012 Vadim Makeev, http://pepelsbey.net
-# Licensed under MIT license
-# 
-# Positioning
-# Block
-# Dimensions
-# Colors
-# Content
-# Text
-# Visual
-# Layout
-# Document
 
-## Positioning  • • • • • • • • • • • • • • • • • • • • • • • • • •
+Copyright © 2008–2012 Vadim Makeev, http://pepelsbey.net
+Licensed under MIT license
+
+- Positioning
+- Block
+- Dimensions
+- Colors
+- Content
+- Text
+- Visual
+- Layout
+- Document
+
+## Positioning
 
 position
 top
@@ -21,7 +22,7 @@ bottom
 left
 z-index
 
-## Block  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Block
 
 display
 visibility
@@ -57,7 +58,7 @@ clip
 -moz-box-sizing
 box-sizing
 
-## Dimensions • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Dimensions
 
 margin
 margin-top
@@ -76,7 +77,7 @@ max-height
 width
 height
 
-## Colors • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Colors
 
 outline
 outline-width
@@ -162,7 +163,7 @@ box-decoration-break
 box-shadow
 color
 
-## Content  • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Content
 
 table-layout
 caption-side
@@ -176,7 +177,7 @@ content
 counter-increment
 counter-reset
 
-## Text • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Text
 
 -ms-writing-mode
 vertical-align
@@ -223,7 +224,7 @@ font-size
 font-family
 src
 
-## Visual • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Visual
 
 opacity
 -ms-interpolation-mode
@@ -313,7 +314,7 @@ animation-iteration-count
 -o-animation-direction
 animation-direction
 
-## Layout • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Layout
 
 unicode-bidi
 direction
@@ -356,7 +357,7 @@ page-break-after
 orphans
 widows
 
-## Document • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Document
 
 -ms-zoom
 zoom

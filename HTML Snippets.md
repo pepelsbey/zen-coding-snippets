@@ -1,18 +1,19 @@
 # Zen Coding snippets for HTML
-# Copyright © 2008–2012 Vadim Makeev, http://pepelsbey.net
-# Licensed under MIT license
-# 
-# Head
-# Sections
-# Grouping
-# Tables
-# Forms
-# Interactive
-# Edits
-# Embedded
-# Text
 
-## Head • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+Copyright © 2008–2012 Vadim Makeev, http://pepelsbey.net
+Licensed under MIT license
+
+- Head
+- Sections
+- Grouping
+- Tables
+- Forms
+- Interactive
+- Edits
+- Embedded
+- Text
+
+## Head
 
 doc
 <!DOCTYPE html>
@@ -162,7 +163,7 @@ cc:noie
 	$0
 <!--<![endif]-->
 
-## Sections • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Sections
 
 body
 <body>
@@ -230,7 +231,7 @@ address
 	$0
 </address>
 
-## Grouping • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Grouping
 
 p
 <p>$1</p>
@@ -310,7 +311,7 @@ figcaption
 div
 <div>$1</div>
 
-## Tables • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Tables
 
 table
 <table>
@@ -366,7 +367,7 @@ colgroup+
 	<col>$0
 </colgroup>
 
-## Forms  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Forms
 
 form
 <form action="$1">
@@ -499,7 +500,7 @@ progress
 meter
 <meter name="$1" value="$2">
 
-## Interactive  • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Interactive
 
 details
 <details>
@@ -523,7 +524,7 @@ menu
 command
 <command type="$1" label="$2">$1</command>
 
-## Edits  • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Edits
 
 del
 <del${1: datetime="$2"}>$3</del>
@@ -531,7 +532,7 @@ del
 ins
 <ins${1: datetime="$2"}>$3</ins>
 
-## Embedded • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Embedded
 
 img
 <img src="$1" alt="$2">
@@ -591,7 +592,7 @@ map+
 area
 <area href="$1" shape="$2" coords="$3" alt="$4">
 
-## Text • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+## Text
 
 a
 <a href="$1">$2</a>
