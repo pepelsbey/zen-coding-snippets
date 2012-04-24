@@ -85,6 +85,7 @@ Licensed under MIT license
 	outline-color
 	outline-offset
 	border
+	border-spacing
 	border-collapse
 	border-width
 	border-style
