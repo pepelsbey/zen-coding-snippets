@@ -201,7 +201,6 @@ Licensed under MIT license
 	text-overflow-ellipsis
 	text-overflow-mode
 	text-shadow
-	line-height
 	white-space
 	word-spacing
 	-ms-word-wrap
@@ -224,6 +223,7 @@ Licensed under MIT license
 	font-size
 	font-family
 	src
+	line-height
 
 ## Visual
 
