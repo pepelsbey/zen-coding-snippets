@@ -314,6 +314,9 @@ Licensed under MIT license
 	-ms-animation-direction
 	-o-animation-direction
 	animation-direction
+	-webkit-user-select
+	-moz-user-select  
+        -ms-user-select 
 
 ## Layout
 
