@@ -273,6 +273,9 @@ Licensed under MIT license
 	-moz-transform-origin
 	-ms-transform-origin
 	-o-transform-origin
+	-webkit-backface-visibility
+	-moz-backface-visibility
+	-ms-backface-visibility
 	transform-origin
 	-webkit-animation
 	-moz-animation
