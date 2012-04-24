@@ -363,5 +363,6 @@ Licensed under MIT license
 	-ms-zoom
 	zoom
 	max-zoom
+	min-zoom
 	user-zoom
 	orientation
