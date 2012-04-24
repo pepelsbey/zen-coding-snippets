@@ -315,8 +315,8 @@ Licensed under MIT license
 	-o-animation-direction
 	animation-direction
 	-webkit-user-select
-	-moz-user-select  
-        -ms-user-select 
+	-moz-user-select
+	-ms-user-select 
 
 ## Layout
 
