@@ -50,8 +50,8 @@ Licensed under MIT license
 	flex-align
 	overflow
 	-ms-overflow-x
-	-ms-overflow-y
 	overflow-x
+	-ms-overflow-y
 	overflow-y
 	clip
 	-webkit-box-sizing
