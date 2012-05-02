@@ -956,6 +956,8 @@ Licensed under MIT license
 	background-origin:content-box;
 
 	bgz
+	-webkit-background-size:$1;
+	-moz-background-size:$1;
 	background-size:$1;
 
 	bgz:a
