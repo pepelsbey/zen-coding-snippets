@@ -269,6 +269,10 @@ Licensed under MIT license
 	-ms-filter
 	filter
 	resize
+	-webkit-user-select
+	-moz-user-select
+	-ms-user-select
+	user-select
 	cursor
 	nav-index
 	nav-up

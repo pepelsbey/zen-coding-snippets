@@ -1731,6 +1731,36 @@ Licensed under MIT license
 	rz:v
 	resize:vertical;
 
+	us
+	-webkit-user-select:$1;
+	-moz-user-select:$1;
+	-ms-user-select:$1;
+	user-select:$1;
+
+	us:n
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+
+	us:a
+	-webkit-user-select:all;
+	-moz-user-select:all;
+	-ms-user-select:all;
+	user-select:all;
+
+	us:e
+	-webkit-user-select:element;
+	-moz-user-select:element;
+	-ms-user-select:element;
+	user-select:element;
+
+	us:t
+	-webkit-user-select:text;
+	-moz-user-select:text;
+	-ms-user-select:text;
+	user-select:text;
+
 	cur
 	cursor:$1;
 
