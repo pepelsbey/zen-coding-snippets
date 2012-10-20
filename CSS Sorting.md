@@ -85,6 +85,7 @@ Licensed under MIT license
 	outline-color
 	outline-offset
 	border
+	border-spacing
 	border-collapse
 	border-spacing
 	border-width
@@ -237,7 +238,6 @@ Licensed under MIT license
 	text-overflow-ellipsis
 	text-overflow-mode
 	text-shadow
-	line-height
 	white-space
 	word-spacing
 	-ms-word-wrap
@@ -260,6 +260,7 @@ Licensed under MIT license
 	font-size
 	font-family
 	src
+	line-height
 
 ## Visual
 
@@ -317,6 +318,9 @@ Licensed under MIT license
 	-moz-transform-origin
 	-ms-transform-origin
 	-o-transform-origin
+	-webkit-backface-visibility
+	-moz-backface-visibility
+	-ms-backface-visibility
 	transform-origin
 	-webkit-animation
 	-moz-animation
@@ -358,6 +362,9 @@ Licensed under MIT license
 	-ms-animation-direction
 	-o-animation-direction
 	animation-direction
+	-webkit-user-select
+	-moz-user-select
+	-ms-user-select 
 
 ## Layout
 
@@ -407,5 +414,6 @@ Licensed under MIT license
 	-ms-zoom
 	zoom
 	max-zoom
+	min-zoom
 	user-zoom
 	orientation
