@@ -304,6 +304,10 @@ Licensed under MIT license
 	-ms-transition-property
 	-o-transition-property
 	transition-property
+	-webkit-backface-visibility
+	-moz-backface-visibility
+	-o-backface-visibility
+	backface-visibility
 	-webkit-transform
 	-moz-transform
 	-ms-transform

@@ -1995,6 +1995,24 @@ Licensed under MIT license
 	-o-transition-property:none;
 	transition-property:none;
 
+	bv
+	-webkit-backface-visibility:$1;
+	-moz-backface-visibility:$1;
+	-o-backface-visibility:$1;
+	backface-visibility:$1;
+
+	bv:v
+	-webkit-backface-visibility:visible;
+	-moz-backface-visibility:visible;
+	-o-backface-visibility:visible;
+	backface-visibility:visible;
+
+	bv:h
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+
 	tf
 	-webkit-transform:$1;
 	-moz-transform:$1;
