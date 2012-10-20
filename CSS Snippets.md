@@ -593,6 +593,9 @@ Licensed under MIT license
 	bdcl:s
 	border-collapse:separate;
 
+	bdsp
+	border-spacing:$1;
+
 	bdw
 	border-width:${1:1px};
 
@@ -758,6 +761,60 @@ Licensed under MIT license
 	-moz-border-image:none;
 	-o-border-image:none;
 	border-image:none;
+
+	bdti
+	-webkit-border-top-image:url($1);
+	-moz-border-top-image:url($1);
+	-o-border-top-image:url($1);
+	border-top-image:url($1);
+
+	bdri
+	-webkit-border-right-image:url($1);
+	-moz-border-right-image:url($1);
+	-o-border-right-image:url($1);
+	border-right-image:url($1);
+
+	bdbi
+	-webkit-border-bottom-image:url($1);
+	-moz-border-bottom-image:url($1);
+	-o-border-bottom-image:url($1);
+	border-bottom-image:url($1);
+
+	bdli
+	-webkit-border-left-image:url($1);
+	-moz-border-left-image:url($1);
+	-o-border-left-image:url($1);
+	border-left-image:url($1);
+
+	bdci
+	-webkit-border-corner-image:url($1);
+	-moz-border-corner-image:url($1);
+	-o-border-corner-image:url($1);
+	border-corner-image:url($1);
+
+	bdtli
+	-webkit-border-top-left-image:url($1);
+	-moz-border-top-left-image:url($1);
+	-o-border-top-left-image:url($1);
+	border-top-left-image:url($1);
+
+	bdtri
+	-webkit-border-top-right-image:url($1);
+	-moz-border-top-right-image:url($1);
+	-o-border-top-right-image:url($1);
+	border-top-right-image:url($1);
+
+	bdbri
+	-webkit-border-bottom-right-image:url($1);
+	-moz-border-bottom-right-image:url($1);
+	-o-border-bottom-right-image:url($1);
+	border-bottom-right-image:url($1);
+
+	bdbli
+	-webkit-border-bottom-left-image:url($1);
+	-moz-border-bottom-left-image:url($1);
+	-o-border-bottom-left-image:url($1);
+	border-bottom-left-image:url($1);
 
 	bdisr
 	-webkit-border-image-source:url($1);

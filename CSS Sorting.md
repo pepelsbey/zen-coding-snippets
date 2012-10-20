@@ -86,6 +86,7 @@ Licensed under MIT license
 	outline-offset
 	border
 	border-collapse
+	border-spacing
 	border-width
 	border-style
 	border-color
@@ -124,6 +125,42 @@ Licensed under MIT license
 	-moz-border-image
 	-o-border-image
 	border-image
+	-webkit-border-top-image
+	-moz-border-top-image
+	-o-border-top-image
+	border-top-image
+	-webkit-border-right-image
+	-moz-border-right-image
+	-o-border-right-image
+	border-right-image
+	-webkit-border-bottom-image
+	-moz-border-bottom-image
+	-o-border-bottom-image
+	border-bottom-image
+	-webkit-border-left-image
+	-moz-border-left-image
+	-o-border-left-image
+	border-left-image
+	-webkit-border-corner-image
+	-moz-border-corner-image
+	-o-border-corner-image
+	border-corner-image
+	-webkit-border-top-left-image
+	-moz-border-top-left-image
+	-o-border-top-left-image
+	border-top-left-image
+	-webkit-border-top-right-image
+	-moz-border-top-right-image
+	-o-border-top-right-image
+	border-top-right-image
+	-webkit-border-bottom-right-image
+	-moz-border-bottom-right-image
+	-o-border-bottom-right-image
+	border-bottom-right-image
+	-webkit-border-bottom-left-image
+	-moz-border-bottom-left-image
+	-o-border-bottom-left-image
+	border-bottom-left-image
 	-webkit-border-image-source
 	-moz-border-image-source
 	-o-border-image-source
