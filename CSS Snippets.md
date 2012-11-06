@@ -724,25 +724,25 @@ Licensed under MIT license
 	-moz-border-radius:$1;
 	border-radius:$1;
 
+	bdtlrz
+	-webkit-border-top-left-radius:${1:0};
+	-moz-border-radius-topleft:$1;
+	border-top-left-radius:$1;
+
 	bdtrrz
 	-webkit-border-top-right-radius:${1:0};
-	-moz-border-top-right-radius:$1;
+	-moz-border-radius-topright:$1;
 	border-top-right-radius:$1;
 
 	bdbrrz
 	-webkit-border-bottom-right-radius:${1:0};
-	-moz-border-bottom-right-radius:$1;
+	-moz-border-radius-bottomright:$1;
 	border-bottom-right-radius:$1;
 
 	bdblrz
 	-webkit-border-bottom-left-radius:${1:0};
-	-moz-border-bottom-left-radius:$1;
+	-moz-border-radius-bottomleft:$1;
 	border-bottom-left-radius:$1;
-
-	bdtlrz
-	-webkit-border-top-left-radius:${1:0};
-	-moz-border-top-left-radius:$1;
-	border-top-left-radius:$1;
 
 	bdi
 	-webkit-border-image:$1;
